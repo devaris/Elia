@@ -1,0 +1,10 @@
+{
+  "unitTitle": "1-1.1: Be a Good Host",
+  "unitDescription": "This module will encourage colleagues to research local events and hot spots that they can later use to engage and connect with guests.",
+  "unitPictureUri": "images/landing-central.png",
+  "unitPictureContentType": "image/png",
+  "duration": "7 minutes",
+  "facilitatorInformation": "List the top 5 local events and hot spots that your guests should know about when they arrive to the hotel.",
+  "startPage": "start.html",
+  "resources":"PAPER;PEN;TIMER;WHITEBOARD;BOOK"
+}

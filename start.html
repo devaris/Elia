@@ -1,0 +1,260 @@
+<!doctype html>
+<html lang="en" dir="ltr" data-version="teacher">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1, maximum-scale=2 user-scalable=yes">
+        <TITLE>ELIA</TITLE>
+        <link rel="stylesheet" href="css/main/overrideUA.css" media="screen, projection" />
+        <link rel='stylesheet' href='http://fonts.googleapis.com/css?family=Open+Sans:300,300italic,400,400italic,600,600italic,700,700italic,800,800italic' type='text/css'>
+        <link rel="stylesheet" href="css/bootstrap.min.css">
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css">
+        <!--<link rel="stylesheet" href="/assets/css/style.css" />-->
+        <link rel="stylesheet" href="css/inspinia/style.css" />
+        <link rel="stylesheet" href="css/main/style.css" media="screen, projection" />
+        <link rel="stylesheet" href="css/main/thePageElementsDiv.css" media="screen, projection" />
+        <link rel="stylesheet" href="css/main/jquery.dragscroll.css" media="screen, projection" />
+        <link rel="stylesheet" href="css/lib/animate.css" media="screen, projection" /> 
+
+        <script src="activities/settings.json" type="text/javascript"></script>
+        <script src="js/lib/jquery/jquery-1.11.3.min.js" type="text/javascript"></script>
+        <script src="js/lib/jquery/jquery.mousewheel.js" type="text/javascript"></script>
+        <script src="js/lib/jquery/jquery.dragscroll.js" type="text/javascript"></script>
+        <script src="js/common/animation.js"></script>
+        <script src="js/common/common.js"></script>
+        <script src="activities/menu.js" type="text/javascript"></script>
+        <script src="js/main/accordion.js" type="text/javascript"></script>
+        <!--<script src="/js/breadcrumbs.js"></script>-->        
+        <script src="js/main/audioPlayer.js" type="text/javascript"></script>
+  		<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
+    </head>
+
+    <BODY>
+        <div class="main_wrapper">
+			<div class="row">		
+                <div id="unit_title" class="col-xs-11">
+					<div class="col-xs-2 logo"><img src="resources/layout/logo.png" width="192px" height="57px"/></div>
+					<div id="head_sep" style=""><img src="resources/layout/separator.png" width="11px" height="57px"/></div>
+					<div class="col-xs-9 unit_title_div" style=""><p id="unit_title_text"></p></div>
+					<!--<p id="unit_title_text" class="col-xs-9" style="font-size:35px;padding:0;margin:0;font-weight:100;width:auto;"></p>-->
+				</div>
+				<div id="menuList" class="col-xs-1"><img src="resources/layout/menu/menuListBTN.jpg" width="64px" height="58px"></div>
+                <div id="lesson_title" style="display:none;"></div>
+				<!--<div id="headerTriangle"></div>-->
+            </div>
+            
+            <nav>
+            </nav>  
+            <section id="section">
+			<div id="content-wrapper">
+          		<div id="content"  style="min-height:550px;line-height:0;overflow:hidden;">
+                    <canvas id="myCanvas" style="position: relative;z-index:1000;pointer-events:none;" width="100%" height="550"></canvas>
+                    <div id="myObject">
+                    	<script type="text/javascript">
+							var tempLang = (acc.myLang==acc.DEFLANG?'':'-'+acc.myLang);
+							document.write('<object id="exercise" name="exercise" type="text/html" data="activities/activity'+tempLang+'.html" width="100%" height="550"></object>');
+						</script>
+                    </div>
+                    <img id="selida" class="selida" alt="" src="" style="margin-top:-550px">
+                    <div id="selidaLinks" style="margin-top:-550px; height:550px; width:990px" class="hideMe"></div>
+                    <div id="selides" style="height:550px; width:990px" class="hideMe"></div>
+                    <div id="hideshowcontent" style="position:relative;overflow:hidden;z-index:1002;pointer-events:none;">
+                        <div id="elementResizable" style="width:100px;height:100px;position:absolute;z-index:4000;display:none;" url="none">
+                            <div class="ui-resizable-handle ui-resizable-nw" id="nwgrip"></div>
+                            <div class="ui-resizable-handle ui-resizable-ne" id="negrip"></div>
+                            <div class="ui-resizable-handle ui-resizable-sw" id="swgrip"></div>
+                            <div class="ui-resizable-handle ui-resizable-se" id="segrip"></div>
+                            <div class="ui-resizable-handle ui-resizable-n" id="ngrip"></div>
+                            <div class="ui-resizable-handle ui-resizable-s" id="sgrip"></div>
+                            <div class="ui-resizable-handle ui-resizable-e" id="egrip"></div>
+                            <div class="ui-resizable-handle ui-resizable-w" id="wgrip"></div>
+                        </div>
+                    </div>
+                </div>
+                <div id="thePageElementsDiv">
+                	<div id="thePageElementsButton">
+                    	<button id="pageElementClose" name="pageElementClose"><img src="resources/layout/menu/close.png" width="22" height="22"/></button>
+                        <button id="pageElementSubs" name="pageElementSubs"><img src="resources/layout/menu/subtitles.png" width="62" height="16"/></button>
+                    </div>
+                    <div id="thePageElementsContent">
+                                            
+                        <!-- https://github.com/iandevlin/iandevlin.github.io/tree/master/mdn/video-player-with-captions -->
+                        <figure id="videoContainer" data-fullscreen="false">
+                            <video id="video" controls preload="metadata">
+                               <!--
+                                <source src="resources/video/videoSub.mp4" type="video/mp4">
+                                <source src="resources/video/videoSub.webm" type="video/webm">
+                                <track label="English" kind="captions" srclang="en" src="resources/video/videoSub.vtt" default>
+                                <track label="Deutsch" kind="captions" srclang="de" src="resources/video/videoSub-de.vtt">
+                                <track label="Español" kind="captions" srclang="es" src="resources/video/videoSub-es.vtt">
+                                -->
+                            </video>
+                            <div id="video-controls" class="controls" data-state="hidden">
+                                <!--
+                                <button id="playpause" type="button" data-state="play">Play/Pause</button>
+                                <button id="stop" type="button" data-state="stop">Stop</button>
+                                <div class="progress">
+                                    <progress id="progress" value="0" min="0">
+                                        <span id="progress-bar"></span>
+                                    </progress>
+                                </div>
+                                <button id="mute" type="button" data-state="mute">Mute/Unmute</button>
+                                <button id="volinc" type="button" data-state="volup">Vol+</button>
+                                <button id="voldec" type="button" data-state="voldown">Vol-</button>
+                                <button id="fs" type="button" data-state="go-fullscreen">Fullscreen</button>
+                                -->
+                                <button id="captions" type="button" data-state="captions">CC</button>
+                            </div>
+                    </figure>
+                    
+        			<link rel="stylesheet" href="css/video-player.css" />
+                    <script src="js/video-player.js"></script>
+                    </div>
+                </div>
+				<!--
+				<div id="audioScriptID">audioScriptID</div>
+                <div id="notes" class="notes" style="visibility:hidden;">
+                    notes
+                    <div  style="width:inherit; height:inherit;padding: 20px;" contenteditable="true">Tap to add notes.</div>
+                    <img style="left:60px;position: absolute;top: -30px;" src="resources/layout/menu/NotesPanelTitle.png" />
+                </div>
+				-->
+			   </div>
+				<div id="navigationButs">
+					<ul class="navButtons">
+						<li><button id="goBack" name="goBack" class="uibuttons bempty"><img src="resources/layout/navigation/BtnUp_Dis.png"/></button></li>
+                        <li><button id="previous" name="previous" class="bempty btnNav"><img src="resources/layout/navigation/BtnPrevious_Off.png" width="60%"/></button></li>
+                        <li><button id="next" name="next" class="bempty btnNav"><img src="resources/layout/navigation/BtnNext_Off.png" width="60%"/></button></li>
+                        <li><button id="notesb" name="notesb" class="uibuttons bempty"><img src="resources/layout/footer/BtnsNotes_Idle.png" height="53"/></button></li>
+                        <li><input type="text" value="1 of" name="counter" id="counter" class="bempty" readonly></li>
+					</ul> 
+                </div>
+            </section>       
+            <footer>
+                <div id="buttons" style="position:relative;">
+                    <ul class="toolBarButtons">
+                        <li><button id="tbpoint" name="tbpoint"><img draggable="false" src="resources/layout/toolbar/pointer.png" width="40" height="53"/></button></li>
+                        <li id="pen-li">
+                            <input class="simple_color" style="display:none;position:absolute;" />
+                            <span id="pen-size-open" style="height:40px;width:42px;position:absolute;z-index:3000;top:-42px;background-color:#ffc200;display:none;padding:0px;border: 1px solid rgb(0, 0, 0);">
+                                <div id="pen-size-sample" style="width:85%;margin-left:auto;margin-right:auto;background-color:#ffffff;height:3px;margin-top:19px;display:block;vertical-align:bottom;"></div>
+                            </span>
+                            <span id="pen-sizes" style="width:100px;padding:7px;position:absolute;z-index:3000;top:-151px;background-color:#ffc200;border: 1px solid rgb(0, 0, 0);display:none;">
+                                <div style="height:11px;" class="pen-size-choice"><div style="width: 100%;height:3px;margin-top:0px;" class="pen-rect"></div></div>
+                                <div style="height:14px;" class="pen-size-choice"><div style="width: 100%;height:6px;" class="pen-rect"></div></div>
+                                <div class="pen-size-choice"><div style="width: 100%;height:10px;" class="pen-rect"></div></div>
+                                <div style="height:24px;" class="pen-size-choice"><div style="width: 100%;height:15px;" class="pen-rect"></div></div>
+                                <div style="height:25px;" class="pen-size-choice"><div style="width: 100%;height:25px;" class="pen-rect"></div></div>
+                            </span>
+                            <div id="tbpen" class="tool disabled">
+                            </div>
+                        </li>
+                        <li id="marker-li">
+                            <input class="simple_color" style="display:none;position:absolute;" />
+                            <span id="marker-size-open" style="height:40px;width:42px;position:absolute;z-index:3000;top:-42px;background-color:#ffc200;display:none;padding:0px;border: 1px solid rgb(0, 0, 0);">
+                                <div id="marker-size-sample" style="width:85%;margin-left:auto;margin-right:auto;background-color:#ffffff;height:9px;margin-top:16px;display:block;vertical-align:bottom;"></div>
+                            </span>
+                            <span id="marker-sizes" style="width:100px;padding:7px;position:absolute;z-index:3000;top:-151px;background-color:#ffc200;border: 1px solid rgb(0, 0, 0);display:none;">
+                                <div style="height:11px;" class="marker-size-choice"><div style="width: 100%;height:3px;margin-top:0px;" class="pen-rect"></div></div>
+                                <div style="height:14px;" class="marker-size-choice"><div style="width: 100%;height:6px;" class="pen-rect"></div></div>
+                                <div class="marker-size-choice"><div style="width: 100%;height:10px;" class="pen-rect"></div></div>
+                                <div style="height:24px;" class="marker-size-choice"><div style="width: 100%;height:15px;" class="pen-rect"></div></div>
+                                <div style="height:25px;" class="marker-size-choice"><div style="width: 100%;height:25px;" class="pen-rect"></div></div>
+                            </span>
+                            <div id="tbmarker" class="tool disabled">
+                            </div>
+                        </li>
+                        <li>
+                            <span id="select-hide" class="hideshowbutton" style="height:40px;width:42px;position:absolute;z-index:3000;top:-42px;background-color:#ffc200;display:none;padding:0px;border: 1px solid rgb(0, 0, 0);">
+                                <div style="width:85%;margin-left:auto;margin-right:auto;display:inline-block;vertical-align:middle;height:40px;"></div>
+                            </span>
+                            <span id="select-show" class="hideshowbutton" style="height:40px;width:42px;position:absolute;z-index:3000;top:-42px;background-color:#ffc200;display:none;padding:0px;border: 1px solid rgb(0, 0, 0);">
+                                <div style="width:85%;margin-left:auto;margin-right:auto;display:inline-block;vertical-align:middle;height:40px;"></div>
+                            </span>
+                            <span id="select-del" class="hideshowbutton" style="height:40px;width:42px;position:absolute;z-index:3000;top:-42px;background-color:#ffc200;display:none;padding:0px;border: 1px solid rgb(0, 0, 0);">
+                                <div style="width:85%;margin-left:auto;margin-right:auto;display:inline-block;vertical-align:middle;height:40px;"></div>
+                            </span>
+                            <div id="tbhideshow" class="tool disabled"></div>
+                        </li>
+                        <li>
+                            <span id="eraser-sizes" style="height:51px;position:absolute;z-index:3000;top:-52px;background-color:#ffc200;display:none; border-radius:4px;">
+                                <div class="eraser-size-choice" style="margin-left:7px;">
+                                    <div style="width: 10px;height:10px;" class="size-square "></div>
+                                </div>
+                                <div class="eraser-size-choice">
+                                    <div style="width: 15px;height:15px;" class="size-square"></div>
+                                </div>
+                                <div class="eraser-size-choice">
+                                    <div style="width: 20px;height:20px;" class="size-square"></div>
+                                </div>
+                                <div class="eraser-size-choice">
+                                    <div style="width: 30px;height:30px;" class="size-square"></div>
+                                </div>
+                                <div class="eraser-size-choice">
+                                    <div style="width: 30px;height:30px;margin-left:4px;" class="size-square"></div>
+                                </div>
+                            </span>
+                            <div id="tberaser" class="tool disabled"></div>
+                        </li>
+                        <li><!--zoom-->
+                          <span id="zoom-in" class="zoom-button" style="height:40px;width:42px;position:absolute;z-index:3000;top:-42px;background-color:#808080;display:none;padding:0px;border: 1px solid rgb(255, 255, 255);">
+                            <div style="width:85%;margin-left:auto;margin-right:auto;display:inline-block;vertical-align:middle;height:40px;"></div>
+                          </span>
+                          <span id="zoom-out" class="zoom-button" style="height:40px;width:42px;position:absolute;z-index:3000;top:-42px;background-color:#808080;display:none;padding:0px;border: 1px solid rgb(255, 255, 255);">
+                            <div style="width:85%;margin-left:auto;margin-right:auto;display:inline-block;vertical-align:middle;height:40px;"></div>
+                          </span>
+                          <span id="zoom-reset" class="zoom-button" style="height:40px;width:42px;position:absolute;z-index:3000;top:-42px;background-color:#808080;display:none;padding:0px;border: 1px solid rgb(255, 255, 255);">
+                            <div style="width:85%;margin-left:auto;margin-right:auto;display:inline-block;vertical-align:middle;height:40px;"></div>
+                          </span>
+                          <div id="tbzoom" class="tool disabled"></div>
+                        </li>
+                        <li><button name="tbhelp" id="tbhelp"  class="tool"><img src="resources/layout/toolbar/help.png" width="40" height="53"/></button></li>                   
+                    </ul>
+
+                    <ul class="mainButtons">
+                    	<li><button id="showgrade" name="showgrade" class="bempty" ></button></li>
+                        <li><img id='seperator0' src="resources/layout/footer/seperator.png" width="20" height="53"/></li>
+                        <li><button id="checkB" name="checkB" class="bempty" disabled><img src="resources/layout/footer/check_Dis.png" width="40" height="53"/></button></li>
+                        <li><button id="showB" name="showB" class="bempty" disabled><img src="resources/layout/footer/show_Dis.png" width="40" height="53"/></button></li>
+                        <li><button name="resetB" class="bempty" disabled><img src="resources/layout/footer/reset_Dis.png" width="40" height="53"/></button></li>
+                        <li><button name="showjust" class="bempty" disabled><img src="resources/layout/footer/justify_Dis.png" width="40" height="53"/></button></li>
+                        <li><img id='seperator1' src="resources/layout/footer/seperator.png" width="20" height="53" style="display:none"/></li>              
+                        <li><button name="showtext" class="bempty" disabled><img src="resources/layout/footer/showText_Dis.png" width="40" height="53"/></button></li>
+                        <li><button name="showgrammar" class="bempty" disabled><img src="resources/layout/footer/g_Dis.png" width="40" height="53"/></button></li>
+                        <li><button name="showLF" class="bempty" disabled><img src="resources/layout/footer/lf_Dis.png" width="40" height="53"/></button></li>
+                        <li><button name="showUE" class="bempty" disabled><img src="resources/layout/footer/ue_Dis.png" width="40" height="53"/></button></li>
+                        <li><button name="showCU" class="bempty" disabled><img src="resources/layout/footer/cu_Dis.png" width="40" height="53"/></button></li>
+                        <li><button name="videoB" class="bempty" disabled><img src="resources/layout/footer/vid_Dis.png" width="40" height="53"/></button></li>
+                        <li><img id='seperator2' src="resources/layout/footer/seperator.png" width="20" height="53" style="display:none"/></li>  
+                        <li><button id="showaudio" name="showaudio" class="bempty" disabled><img src="resources/layout/footer/BtnTxt_Dis.png" width="40" height="53"/></button></li>
+                    </ul>
+
+                    <ul id="audioPlID" class="audioPlC">
+                        <audio id="myaudio">HTML5 audio not supported</audio>
+                        <!-- <li><button id="tapescr" name="tapescr" disabled><img src="resources/layout/audioplayer/BtnTxt_Dis.png" width="40" height="53"/></button></li> -->
+                        <li><button id="audiorew" name="audiorew" class="bempty" disabled></button></li>
+                        <li><button id="audiopl" name="audiopl" class="bempty" disabled><img src="resources/layout/audioplayer/BtnPlay_Dis.png" width="40" height="53"/></button></li>
+                        <li><button id="audiofor" name="audiofor" class="bempty" disabled></button></li>
+                        <li><input type="range" name="seek-bar" id="seek-bar" value="0" onChange="rangevalue.value = value" class="bempty" disabled></li>
+                        <li><output id="rangevalue"  class="bempty">0</output></li>
+
+                    </ul>      
+                </div>
+               <div id="helptool" onClick="$('#helptool').toggle();" style=" ">
+                	<script type="text/javascript">
+						var tempLang = (acc.myLang==acc.DEFLANG?'':'-'+acc.myLang);
+						var tempFilename = (acc.myVersion=="student" ? 'annotations'+tempLang+'St.png' : 'annotations'+tempLang+'.png');
+						document.write('<img src="resources/layout/toolbar/'+tempFilename+'" width="1010" height="550" />');
+					</script>
+                </div>
+                <div id="grade" onClick="$('#grade').toggle();" style=" ">
+                	<!--<script type="text/javascript">
+						var tempLang = (acc.myLang==acc.DEFLANG?'':'-'+acc.myLang);
+						var tempFilename = (acc.myVersion=="student" ? 'grade'+tempLang+'St.jpg' : 'grade'+tempLang+'.jpg');
+						document.write('<img src="resources/layout/activities/'+tempFilename+'" width="1010" height="550" />');				
+					</script>-->
+                </div>
+            </footer>
+        </div>  
+    </BODY>
+
+</HTML>
