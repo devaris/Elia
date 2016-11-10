@@ -1,0 +1,67 @@
+@charset "utf-8";
+/* CSS Document */
+
+
+
+.drags span.itemIsActive {
+	padding: 3px;
+	
+	/*font-family:'CSSREF_STDBLD';
+	font-style:italic;*/
+}
+
+span.cloned {
+	z-index: 3;
+}
+
+ul.SourceItems > li {
+	/*list-style:lower-alpha;*/
+	list-style:none;
+	float:left;
+}
+
+html[dir="rtl"] ul.SourceItems > li {
+	float:right;
+}
+
+/****EXTRA FOR DRAG AND DROP**** - CHANGE ACCORDING TO ACTIVEITEMCLASS */
+ul.SourceItems > li > span.itemIsActive,  ul.TargetItems > li  > span.itemIsActive{
+    /*color: #0033CC;*/
+    cursor: pointer;
+    font-family: 'CSSREF_STDREG1';
+    font-style: italic;
+    font-weight: bold;
+}
+
+/**** THIS NEEDS TO BE REVISITED< OBVIOUSLY*/
+ul.SourceItems > li > span.itemIsActive {
+	/*color: #000000;*/
+}
+
+.checkCorrect > img, .checkWrong > img {
+    border : 2px solid;
+}
+
+
+.individualCheck.isOn {
+    background: url("../../resources/layout/footer/check_Off.png") no-repeat scroll right bottom rgba(0, 0, 0, 0);
+    cursor: pointer;
+}
+
+
+.individualCheck {
+    background: url("../../resources/layout/footer/check_Dis.png") no-repeat scroll right bottom rgba(0, 0, 0, 0);
+
+}
+
+.individualCheck.isOn.checked {
+    background: url("../../resources/layout/footer/check_On.png") no-repeat scroll right bottom rgba(0, 0, 0, 0);
+    cursor : pointer;
+}
+
+.individualCheck {
+    cursor : arrow;
+    display: inline-block;
+    height: 40px;
+    width: 40px;    
+}

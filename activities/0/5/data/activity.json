@@ -1,0 +1,84 @@
+{
+	"elements" : {
+					"showtext" : "",
+					"showjusttext":"",
+					"showgrammar" : "",
+					"showLF" : "",
+					"showUE" : "",
+					"showaudio" : "",
+					"image":"", 
+					"audio":"", 
+					"URLs":""
+	},
+	"ex":{
+		"0":{
+			"type":"multiple",
+			"activeElement" : "activity",
+			"settings" : {
+				"dropDown":true,
+				"typeOfCheck" : {
+					"type":"submit", 
+					"checkButton":true,
+					"showAll": false,
+					"cleanOnClick":"selection" 					
+				},
+				"appearance" : { 
+					"showInput":true, 
+					"tableChoices":false, 
+					"inlineChoices":true 
+				},
+				"unit" : {
+					"number":"1",
+					"content":"ENTERTAINMENT",
+					"subtitle":"IN THE PICTURE"
+				}			
+			},
+			"rubric" : {
+				"number" : "Review: Elements of Instructional Design",
+				"content" : "Let’s review what you’ve learned.<br><br><div class=\"colory\"><em>Choose the correct option for completing each sentence below, and then click to check your answers.</em></div>"
+			},
+			"activity" : {	
+			"htmlDataBefore":"<br>1. Instructional design involves the  <span class=\"words\"></span> of learning needs.<br><br>2. Instructional designers are versed in the <span class=\"words\"></span> of how people learn.<br><br>3. Instructional designers use a <span class=\"words\"></span> process to design instruction.<br><br>4. Instructional designers write <span class=\"words\"></span> , but do not always handle development themselves.<br><br>5. Instructional designers  <span class=\"words\"></span> outcomes to ensure the transfer of knowledge, skills, and attitudes to learners.",
+						 
+				"items": [
+					{
+						"image":"", 
+						"sound":"", 
+						"stem":"",
+						"answers":["Please select","analysis","evaluation"],
+						"correct":[1]
+					},
+					{
+						"image":"", 
+						"sound":"", 
+						"stem":"",
+						"answers":["Please select","past experience","theory"],
+						"correct":[2]
+					},
+					{
+						"image":"", 
+						"sound":"", 
+						"stem":"",
+						"answers":["Please select","systematic","analytical"],
+						"correct":[1]
+					},
+					{
+						"image":"", 
+						"sound":"", 
+						"stem":"",
+						"answers":["Please select","content","specifications"],
+						"correct":[2]
+					},
+					{
+						"image":"", 
+						"sound":"", 
+						"stem":"",
+						"answers":["Please select","design","evaluate"],
+						"correct":[2]
+					}
+				],
+  			"myText":""
+			}
+		}
+	}
+}

@@ -1,0 +1,128 @@
+﻿@charset "utf-8";
+/* CSS Document */
+
+/*Blue Background in answers NECESSARY*/
+.answers{
+	/*background: #E9F7C9; /*#DFF1FD;*/
+	text-align:left;
+	/*font-size: x-large;*/
+}
+
+/*show text and extra content dimensions*/
+#showtext {
+	/*Remove comments where necessary if you want to give different dimensions to the showtext.*/
+	width: 700px;
+	height: 100%;
+} 
+
+.colour1 {
+	background: #053752;
+	color: #FFFFFF;
+	text-align:left;
+}
+
+.myButton{
+	display: inline-block;
+	color: #FFFFFF;
+}
+
+.clickMe {
+	padding-left: 0%;
+	display: inline-block;
+	margin-left: -15px;
+}
+
+/* background color of advantages */
+.green{
+	background: #E9F7C9;
+}
+.colour2 {
+	background: #E9F7C9;
+}
+
+.colour3 {
+	background: #F23F36;
+	padding:1%;
+	color: #FFFFFF;
+	text-align:left;
+}
+
+@media (max-width:992px) {
+    .colour3{
+		margin-top:5%;
+	}
+}
+
+.red{
+	background: #F2D6D6;
+}
+
+.colour4 {
+	background: #F2D6D6;
+}
+
+.textAfter {
+	text-align:left;
+}
+
+.active {
+ color:#FFFFFF;
+}
+
+.imageButton1 {
+	background-image:url("../images/image1.png");
+	width: 346px;
+	height: 100px;
+}
+
+.imageButton2{
+	background-image:url("../images/image2.png");
+	width: 346px;
+	height: 100px;
+}
+
+.active > .imageButton1 {
+	background-image:url("../images/image1_pressed.png");
+	width: 346px;
+	height: 100px;
+}
+
+.active > .imageButton2{
+	background-image:url("../images/image2_pressed.png");
+	width: 346px;
+	height: 100px;
+}
+
+.answers{
+	height:200px;
+}
+
+@media (max-width:768px) {
+	.answers{
+		height:110px;
+	}
+}
+
+.answers.foo {
+	background-color:transparent;
+	color: #000;
+}
+
+div.plainText:nth-child(3) {
+	text-align:left;
+}
+
+.myfont {
+	font-weight: 600;
+}
+
+.row {
+    margin-right: -30px;
+    margin-left: -30px;
+}
+
+@media (max-width:768px) {
+	.rubric_content {
+		min-height: 50px;
+	}
+}

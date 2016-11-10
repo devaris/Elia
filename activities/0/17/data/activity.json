@@ -1,0 +1,44 @@
+﻿{
+	"elements" : {
+					"showtext" : "",
+					"showjusttext":"",
+					"showgrammar" : "",
+					"showLF" : "",
+					"showUE" : "",
+					"showaudio" : "",
+					"image":"", 
+					"audio":"", 
+					"URLs":""
+	},
+	"ex" : {
+		"0" : {
+			"type" : "display",
+			"activeElement" : "activity",
+			"settings" : {
+				"typeOfCheck" : {
+					"type": "individual", 
+					"checkButton":false,
+					"cleanOnClick":"selection"
+					
+				},
+				"unit" : {
+					"number":"1",
+					"content":"Your World",
+					"subtitle":"Reading"
+				},
+				"maxChars" : "20",
+				"howStrict" : "isLoose",
+				"substitute": true
+			},
+			"rubric" : {
+				"number" : "Becoming An Instructional Designer",
+				"content" : ""
+			},
+			"activity": {
+				"header" : [null,null,null],
+				"main" : [null,[["plainText","<div class=\"col-xs-12\"><div class=\"text col-sm-8 col-xs-12\"><div class=\"col-xs-12\"><div class=\"myText col-sm-10 col-xs-12\"><em>Instructional designers usually come from diverse educational and professional backgrounds and even though it’s crucial to boast a solid foundation in learning theory and cognitive science, the creation of a successful course requests a wide knowledge, an open-minded mentality and a multilevel familiarity with various different subjects.</em></div></div><div class=\"text col-sm-8 col-xs-12 smallPlain\"><br><strong>- Christopher Pappas, CEO</strong><br> eLearning Industry</div></div> <div class=\"myImage col-sm-4 col-xs-12\"><img src=\"images/face1.png\"></div></div> <div class=\"myLink col-xs-12 smallPlain\">From:  <a href=\"http://elearningindustry.com/top-10-instructional-designer-skills\" target=\"_blank\">http://elearningindustry.com/top-10-instructional-designer-skills </a></div>"]],null],
+				"footer" : [null,null,null]
+			}
+		}
+	}
+}

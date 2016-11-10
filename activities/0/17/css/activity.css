@@ -1,0 +1,72 @@
+@charset "utf-8";
+/* CSS Document */
+
+.big_text{
+	margin-bottom: 10%;
+}
+
+.image_down{
+	position: absolute;
+    bottom: 0;
+    right: 20px;
+}
+
+.myImage{
+	margin: 0px auto;
+	text-align: center;
+}
+
+.myImage img{
+    width: 85%;
+}
+
+.myLink{
+	text-align: left;
+}
+
+.myLink img{
+	margin-right: 1%;
+}
+
+/*show text and extra content dimensions*/
+#showtext {
+	/*Remove comments where necessary if you want to give different dimensions to the showtext.*/
+	width: 700px;
+	height: 100%;
+} 
+
+a {
+	color:#ec6608;
+}
+
+.myText {
+	padding:2%;
+	background-color:#053752;
+	color:#FFFFFF;
+	text-align:left;
+}
+
+.rubric_content{
+	border:left;
+}
+
+.activityText, .plainText{
+	padding:0px;
+}
+
+.smallPlain{
+	text-align:left;
+}
+
+@media (max-width:768px) {
+	.rubric_content {
+		min-height: 0px;
+	}
+	.myLink{
+		padding-top:20px;
+	}
+	.text{
+		padding-bottom:20px;
+	}
+	
+}

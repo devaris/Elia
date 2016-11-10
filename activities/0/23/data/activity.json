@@ -1,0 +1,42 @@
+﻿{
+	"elements" : {
+					"showtext" : "",
+					"showgrammar" : "",
+					"showLF" : "",
+					"showUE" : "",
+					"showCU" : "",
+					"showaudio" : "",
+					"image":"", 
+					"audio":"", 
+					"URLs":""
+	},
+	"ex" : {
+		"0" : {
+			"type" : "display",
+			"activeElement" : "activity",
+			"settings" : {
+				"typeOfCheck" : {
+					"type": "submit", 
+					"checkButton":false,
+					"cleanOnClick":"selection"
+				},
+				"unit" : {
+					"number":"1",
+					"content":"Your World",
+					"subtitle":"Reading"
+				},
+				"maxChars" : "20",
+				"howStrict" : "isLoose" 
+			},
+			"rubric" : {
+				"number" : "",
+				"content" : ""
+			},
+			"activity": {
+				"header" : [null,[["plainText","<div class='nexttitle rubric_qualifier'>What’s Next?</div>"]],null],
+				"main" : [null,[["plainText","<div class='nextlessondesc col-sm-6 col-sm-offset-3 col-xs-12 col-xs-offset-0'>Instructional designers understand <strong>how people learn</strong> and use this knowledge to create solutions for specific learning goals.</div><div class='nextlesson'><p>In the next lesson, you’ll examine the theoretical foundations of Instructional Design, including:</p></div><div class='nextlist col-xs-12'><ul><li>the <strong>Information processing</strong> model, which describes how people learn</li><li><strong>philosophies</strong> that underpin different approaches to instructional design</li><li>Gagne’s 9 Events of Instruction and other <strong>models</strong> for sequencing instruction</li><li>the importance of <strong>grounded instruction</strong>: making sure your designs have a basis in theory</li><li>your own <strong>personal philosophy</strong> about how people learn</li></ul></div>"]],null],
+				"footer" : [null,null,null]
+			}
+		}
+	}
+}

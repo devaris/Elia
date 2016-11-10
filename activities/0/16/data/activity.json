@@ -1,0 +1,44 @@
+﻿{
+	"elements" : {
+					"showtext" : "",
+					"showjusttext":"",
+					"showgrammar" : "",
+					"showLF" : "",
+					"showUE" : "",
+					"showaudio" : "",
+					"image":"", 
+					"audio":"", 
+					"URLs":""
+	},
+	"ex" : {
+		"0" : {
+			"type" : "display",
+			"activeElement" : "activity",
+			"settings" : {
+				"typeOfCheck" : {
+					"type": "individual", 
+					"checkButton":false,
+					"cleanOnClick":"selection"
+					
+				},
+				"unit" : {
+					"number":"1",
+					"content":"Your World",
+					"subtitle":"Reading"
+				},
+				"maxChars" : "20",
+				"howStrict" : "isLoose",
+				"substitute": false
+			},
+			"rubric" : {
+				"number" : "Advantages and Disadvantages of The ADDIE Model",
+				"content" : "While ADDIE has successfully helped guide thousands of ID projects, you should be aware that it has both advantages and disadvantages.<br><br><div class=\"colory\"><em>Click Advantages, Disadvantages, and then the link to learn more.</em></div>"
+			},
+			"activity": {
+				"header" : [null,null,null],
+				"main" : [null,[["plainText","<div class=\"\"><div class=\"col-sm-6 col-xs-12 \">{{[0]<div class=\"imageButton1\"/>}}</div><div class=\"col-sm-12 \"><div class=\"answers \">@@[0]<ul><li>Ensures that goals, instruction, and evaluation all work together</li><li>Facilitates management of project</li><li>Provides opportunities for all project stakeholders to have input</li></ul>@@ </div></div>  </div> <div class=\"col-sm-6 col-xs-12 \">{{[1]<div class=\"imageButton2\"/>}}</div> <div class=\"col-sm-12 \"><div class=\"answers \">@@[1]<ul><li>Works best with large and complex projects</li><li>Has limited applicability when learning goals cannot be identified in advance (e.g. because the project involves more than training)</li><li>Might be too slow for many eLearning projects</li></ul>@@ </div>  </div>"] ,["plainText","{{[2]<div class=\"colory myfont\"><em>Click to learn more.</em></div>}}<div class=\"answers mydiv\">@@[2]As more and more courses are deployed via the Internet, <strong>rapid development</strong> and other ID models, such as <strong>AGILE</strong> (Align, Get set, Iterate and Implement, Leverage and Evaluate) and <strong>SAM</strong> (Successive Approximation Model), are increasingly being used, in an effort to shorten development times. Nonetheless, ADDIE remains an important model that every instructional designer should know.@@ </div>"]],null],
+				"footer" : [null,null,null]
+			}
+		}
+	}
+}

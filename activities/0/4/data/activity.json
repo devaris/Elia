@@ -1,0 +1,45 @@
+﻿{
+	"elements" : {
+					"showtext" : "",
+					"showjusttext":"",
+					"showgrammar" : "",
+					"showLF" : "",
+					"showUE" : "",
+					"showaudio" : "",
+					"image":"", 
+					"audio":"", 
+					"URLs":""
+	},
+	"ex" : {
+		"0" : {
+			"type" : "display",
+			"activeElement" : "activity",
+			"settings" : {
+				"typeOfCheck" : {
+					"type": "individual", 
+					"checkButton":false,
+					"cleanOnClick":"selection"
+					
+				},
+				"unit" : {
+					"number":"1",
+					"content":"Your World",
+					"subtitle":"Reading"
+				},
+				"maxChars" : "20",
+				"howStrict" : "isLoose",
+				"substitute": true,
+				"closeButAppear" : true
+			},
+			"rubric" : {
+				"number" : "Instructional Designers As Architects",
+				"content" : "The work of instructional designers can be compared to architects.<br><br><div class=\"colory\"><em>To see how, click each <strong>number</strong> on the path.</em></div>"
+			},
+			"activity": {
+				"header" : [null,null,null],
+				"main" : [null,[["image col-sm-2", "<img src=\"images/img1.png\">"],["plainText col-sm-8","<div class=\"questions col-xs-12\"><div class=\"question_text\"><div class=\"clickMe_text col-xs-12 col-sm-2 col-sm-offset-1\">{{[0]<img src=\"images/img2.png\"><div class=\"triangle\"><img src=\"../resources/layout/triangle/triangle_top.png\"></div>}}</div></div> <div class=\"question_text\"><div class=\"clickMe_text col-xs-12 col-sm-2\">{{[1]<img src=\"images/img3.png\"><div class=\"triangle\"><img src=\"../resources/layout/triangle/triangle_top.png\"></div>}}</div></div> <div class=\"question_text\"><div class=\"clickMe_text col-xs-12 col-sm-2\">{{[2]<img src=\"images/img4.png\"><div class=\"triangle\"><img src=\"../resources/layout/triangle/triangle_top.png\"></div>}}</div></div><div class=\"question_text\"><div class=\"clickMe_text col-xs-12 col-sm-2\">{{[3]<img src=\"images/img5.png\"><div class=\"triangle\"><img src=\"../resources/layout/triangle/triangle_top.png\"></div>}}</div></div><div class=\"question_text\"><div class=\"clickMe_text col-xs-12 col-sm-2\">{{[4]<img src=\"images/img6.png\"><div class=\"triangle\"><img src=\"../resources/layout/triangle/triangle_top.png\"></div>}}</div></div> </div><div class=\"col-xs-12 col-sm-10 col-sm-offset-1 answersDiv\"><div class=\"answers\">@@[0]Architects <strong>analyze</strong> a client’s needs, a structure’s intended uses, and the environment in which a structure is going to be built.@@ @@[1]Architects <strong>use their understanding</strong> of engineering, aesthetics, and human psychology to design a building that will stand and serve its inhabitants.@@ @@[2]Architects use a <strong>systematic process</strong> to make sure their designs meet all project requirements.@@ @@[3]Architects produce <strong>blueprints</strong>, which serve as the building’s design. They remain involved during the building’s construction, but do not usually build the building themselves.@@ @@[4]Architects <strong>evaluate outcomes</strong> to make sure the finished product successfully conveys the project’s design.<br><br>Is <strong>creativity</strong> important? Absolutely! If you give ten architects the same project, you’ll end up with ten different designs. Each design may meet the project’s requirements, but some will be beautiful, imaginative, and inspiring, while others might be merely functional.<br><br>Creativity is what makes good instructional design great!@@</div></div>"],["image col-sm-2", "<img src=\"images/img7.png\">"]],null],
+				"footer" : [null,null,null]
+			}		
+		}
+	}
+}

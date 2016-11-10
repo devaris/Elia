@@ -1,0 +1,56 @@
+@charset "utf-8";
+/* CSS Document */
+
+img.kyklakiaExtra {
+    position: absolute;
+    cursor:pointer;
+}
+
+/* DIV FOR GLOBAL VIDEO PLAYER*/
+video {
+    /*
+	margin-left: 160px;
+    margin-top: 30px;
+	*/
+	margin-bottom: 10px;
+    margin-left: 64px;
+    margin-top: 0;
+}
+
+html[dir="rtl"] video {
+    margin-left: 0;
+    margin-right: 160px;
+}
+
+audio {
+    margin-left: 350px;
+    margin-top: 300px;
+}
+
+#thePageElementsDiv {
+    background-color: #fff;
+   /* height: 550px;*/
+    position: absolute;
+    top: 0;
+    visibility: hidden;
+/*    width: 990px;*/
+	display:none;
+}
+
+
+#thePageElementsButton{
+    position: absolute;
+    right: 20px;
+}
+#pageElementClose, #pageElementSubs, #thePageElementsButton{
+	cursor:pointer;
+	z-index:1;
+}
+#pageElementSubs {
+    position: absolute;
+    right: 0;
+    top: 505px;
+	
+	/* */
+	display:none;
+}

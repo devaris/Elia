@@ -1,0 +1,57 @@
+@charset "utf-8";
+/* CSS Document */
+
+/*change only if necessary for the activity*/
+
+/*activity dimensions*/
+.content {
+   /*width: 702px;*/
+}
+
+.section {
+	/*height: 600px;*/
+}
+
+/*show text and extra content dimensions*/
+#showtext {
+	/*Remove comments where necessary if you want to give different dimensions to the showtext.*/
+	width: 700px;
+	height: 100%;
+}
+
+.activity_content [id*="timelineDiv"]{
+	position: absolute;
+	top: 10px;
+	right: 0px;
+	bottom: 0px;
+	left: 0px;
+}
+
+@media (min-width:768px) {
+	img {
+		/*margin-top:20px;*/
+		/*margin-bottom:50px;*/
+		width:30%;
+		height:30%;
+		min-width:200px;
+		min-height:200px;
+	}
+}
+
+@media (max-width:768px) {
+	img {
+		/*margin-top:20px;*/
+		/*margin-bottom:50px;*/
+		width:20%;
+		height:20%;
+		min-width:350px;
+		min-height:350px;
+	}
+	.rubric_content {
+		min-height: 50px;
+	}
+}
+
+.activity_content{
+	margin-bottom: 550px;
+}	

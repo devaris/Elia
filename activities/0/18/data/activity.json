@@ -1,0 +1,47 @@
+﻿{
+	"elements" : {"facilitator" : "The most effective instructional designers possess <strong>interdisciplinary</strong> knowledge, effective <strong>communication skills</strong>, excellent <strong>problem-solving</strong> ability, and a <strong>commitment to lifelong learning</strong>. ",
+					"showtext" : "",
+					"showjusttext":"",
+					"showgrammar" : "",
+					"showLF" : "",
+					"showUE" : "",
+					"showaudio" : "",
+					"image":"", 
+					"audio":"new0_16", 
+					"URLs":""
+	},
+	"ex" : {
+		"0" : {
+			"type" : "display",
+			"activeElement" : "activity",
+			"settings" : {
+				"typeOfCheck" : {
+					"type": "individual", 
+					"checkButton":false,
+					"cleanOnClick":"selection"
+					
+				},
+				"unit" : {
+					"number":"1",
+					"content":"Your World",
+					"subtitle":"Reading"
+				},
+				"maxChars" : "20",
+				"howStrict" : "isLoose",
+				"substitute": true,
+				"autoPlayAudio" : true,
+				"closeButAppear" : true
+				
+			},
+			"rubric" : {
+				"number" : "Core Instructional Design Skills",
+				"content" : "<div>To become an instructional designer, you should consider building your skills in these five key areas<br><br></div><div class=\"colory\"><em>Click each link to see more:</em></div>"
+			},
+			"activity": {
+				"header" : [null,null,null],
+				"main" : [null,[["plainText","<div class=\"questions col-sm-6 col-xs-12\"><div class=\"question_text\"><div class=\"clickMe_text col-xs-11\">{{[0]Education Skills}}</div><div class=\"triangle col-xs-1\"><img src=\"../resources/layout/triangle/triangle_left.png\"></div></div> <div class=\"question_text\"><div class=\"clickMe_text col-xs-11\">{{[1]Business Skills}}</div><div class=\"triangle col-xs-1\"><img src=\"../resources/layout/triangle/triangle_left.png\"></div></div> <div class=\"question_text\"><div class=\"clickMe_text col-xs-11\">{{[2]Technology Skills}}</div><div class=\"triangle col-xs-1\"><img src=\"../resources/layout/triangle/triangle_left.png\"></div></div><div class=\"question_text\"><div class=\"clickMe_text col-xs-11\">{{[3]Communication Skills}}</div><div class=\"triangle col-xs-1\"><img src=\"../resources/layout/triangle/triangle_left.png\"></div></div> <div class=\"question_text\"><div class=\"clickMe_text col-xs-11\">{{[4]Creative Skills}}</div><div class=\"triangle col-xs-1\"><img src=\"../resources/layout/triangle/triangle_left.png\"></div></div></div><div class=\"col-sm-5 col-xs-12 answersDiv\"><div class=\"answers\">@@[0]Instructional designers understand how people learn and use this knowledge to create solutions for specific learning goals. This includes knowledge of:<br><br><div class=\"myList\"><ul><li>learning theory and psychology</li><li>instructional strategies</li><li>curriculum planning</li><li>learning objectives</li><li> assessment</li></div>@@ @@[1]The more instructional designers understand about business and management, the better they are able to meet their clients’ goals. Instructional designers can benefit from having skills in the following areas:<br><br><div class=\"myList\"><ul><li>project management</li><li>evaluating business outcomes</li><li>meetings and presentations</li><li>data collection and analysis</li><li>marketing</li></ul></div>@@ @@[2]Instructional designers need to understand the strengths and limitations of various technologies, so they can select appropriate delivery media for learners. Skills in the following areas may be useful:<br><br><div class=\"myList\"><ul><li>eLearning development software</li><li>office software</li><li>programming</li><li>Learning Management Systems (LMS)</li><li>quality assurance and testing</li></ul></div>@@ @@[3]Because ID projects require a lot of collaboration, Instructional Designers need to have excellent interpersonal and communication skills, including:<br><br><div class=\"myList\"><ul><li>writing and editing</li><li>interviewing and note-taking</li><li>persuasion and change</li><li>coaching and mentoring</li><li>conflict resolution</li></ul></div>@@ @@[4]Creativity is what separates good and great instructional design. While creativity may be applied to all facets of the ID process, instructional designers may also have the following creative skills:<br><br><div class=\"myList\"><ul><li>graphic design</li><li>audio/video</li><li>user experience design</li><li>animation</li><li>games and simulations</li></ul></div>@@</div></div>"]],null],
+				"footer" : [null,null,null]
+			}
+		}
+	}
+}

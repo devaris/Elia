@@ -1,0 +1,17 @@
+	#extraTextDiv{
+		display:none;
+		/*hidden for Viceroy
+		visibility:hidden;*/
+		background:#ffffff no-repeat right top;
+		/*border:4px solid #FF4E00;*/
+		position: absolute;
+    	/*top: -500px;*/
+		/*width: 900px;*/
+	}
+	
+	.nano { 
+		background: #bba; /*width: 999px; height: 542px; */
+	}
+	.nano .nano-content { padding: 20px; }
+	.nano .nano-pane   { background: #888; }
+	.nano .nano-slider { background: #111; }

@@ -1,0 +1,65 @@
+﻿
+{
+	"elements" : {
+					"facilitator" : "In the implementation phase, the ID team helps Acomb write a letter to all sales reps, telling them about the new training program, how to access it, and giving them a deadline for completing the course.<br><br>As the sales reps begin to go through the course, the ID team checks in with the technical support team to see if learners are experiencing any problems. People who are late to start the training are sent a follow-up e-mail as a reminder.<br><br>As the sales reps complete the training, the ID team begins to collect post-training feedback questionnaires, and analyze the data. This is all for the evaluation phase of the project. ",
+					"showtext" : "",
+					"showgrammar" : "",
+					"showLF" : "",
+					"showUE" : "",
+					"showCU" : "",
+					"showaudio" : "",
+					"image":"", 
+					"audio":"0_13", 
+					"URLs":""
+	},
+	"ex" : {
+		"0" : {
+			"type" : "syncAudio",
+			"activeElement" : "activity",
+			"settings" : {
+				"typeOfCheck" : {
+					"type": "submit", 
+					"checkButton":false,
+					"cleanOnClick":"selection" 
+				},
+				"unit" : {
+					"number":"1",
+					"content":"Your World",
+					"subtitle":"Reading"
+				},
+				"autoPlayAudio" : true,
+				"hideTimebar" : false,
+				"equalColumns": false
+			},
+			"rubric" : {
+				"number" : "Acomb Case Study: Implementation",
+				"content" : "In the Implementation phase:"
+			},
+			"activity": {
+				"header" : [null,["plainText leftAlign",""],null],
+				"main" : [["image", "<img src=\"images/image0.png\">"],[["syncText","text1"]],["image", "<img src=\"images/image1.png\">"]],
+				"footer" : [null,null,null],
+				"timelineObject":[
+					{
+						"start": 3.84,
+						"target": "text1",
+						"text": "Sales reps are told about the eLearning course, how to access it, and deadline for course completion",
+						"classText":""
+					},
+					{
+						"start": 12.67,
+						"target": "text1",
+						"text": "ID team monitors course to see if learners are having problems, and helps pull in late starters",
+						"classText":""
+					},
+					{
+						"start": 24.78,
+						"target": "text1",
+						"text": "ID team begins collecting feedback questionnaires",
+						"classText":""
+					}
+				]
+			}
+		}
+	}
+}

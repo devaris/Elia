@@ -1,0 +1,119 @@
+﻿{
+	"elements" : {
+					"showtext" : "",
+					"showjusttext":"",
+					"showgrammar" : "",
+					"showLF" : "",
+					"showUE" : "",
+					"showaudio" : "",
+					"image":"", 
+					"audio":"", 
+					"URLs":""
+	},
+	"ex":{
+		"0":{
+			"type":"multiple",
+			"activeElement" : "activity",
+			"settings" : {
+				"dropDown":false,
+				"typeOfCheck" : {
+					"type":"submit", 
+					"checkButton":true,
+					"showAll": false,
+					"cleanOnClick":"selection" 					
+				},
+				"appearance" : { 
+					"showInput":true, 
+					"tableChoices":true, 
+					"inlineChoices":false 
+				},
+				"unit" : {
+					"number":"1",
+					"content":"ENTERTAINMENT",
+					"subtitle":"IN THE PICTURE"
+				}			
+			},
+			"rubric" : {
+				"number" : "Test Your Understanding - B",
+				"content" : "Below are descriptions of several <strong>tasks</strong> an instructional designer is performing.<br><br><div class=\"colory\">Identify in which <strong>phase</strong> of the instructional design process each task would occur.</div>"
+			},
+			"activity" : {	
+			"htmlDataBefore":"",
+						 
+				"items": [
+					{
+						"image":"", 
+						"sound":"", 
+						"stem":"Identifying learner attitudes and obstacles toward learning.",
+						"answers":["<img src=\"images/A.png\">","<img src=\"images/D.png\">","<img src=\"images/D.png\">","<img src=\"images/I.png\">","<img src=\"images/E.png\">"],
+						"correct":[0]
+					},
+					{
+						"image":"", 
+						"sound":"", 
+						"stem":"Deciding to use virtual classrooms as a component of sales training.",
+						"answers":[],
+						"correct":[1]
+					},
+					{
+						"image":"", 
+						"sound":"", 
+						"stem":"Visiting people on the job to see how they apply the skills they learned in class.",
+						"answers":[],
+						"correct":[4]
+					},
+					{
+						"image":"", 
+						"sound":"", 
+						"stem":"Conducting focus groups with a Beta version of course software.",
+					"answers":[],
+						"correct":[4]
+					},
+					{
+						"image":"", 
+						"sound":"", 
+						"stem":"Producing teachers’ guides for teachers to use with an online class.",
+					"answers":[],
+						"correct":[2]
+					},
+					{
+						"image":"", 
+						"sound":"", 
+						"stem":"Registering learners for online classes.",
+					"answers":[],
+						"correct":[3]
+					},
+						{
+						"image":"", 
+						"sound":"", 
+						"stem":"Shooting a video for an instructional DVD.",
+					"answers":[],
+						"correct":[2]
+					},
+						{
+						"image":"", 
+						"sound":"", 
+						"stem":"Deciding that an e-learning course should have six main sections.",
+					"answers":[],
+						"correct":[1]
+					},
+					{
+						"image":"", 
+						"sound":"", 
+						"stem":"Identifying what workers should be able to do at the end of a training course.",
+					"answers":[],
+						"correct":[0]
+					},
+					{
+						"image":"", 
+						"sound":"", 
+						"stem":"Writing learning objectives.",
+					"answers":[],
+						"correct":[1]
+					}
+				],
+  			"myText":""
+			}
+		}
+	}
+}

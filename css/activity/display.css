@@ -1,0 +1,196 @@
+@charset "utf-8";
+/* CSS Document */
+
+
+/*CSS From ClickReveal*/
+.showMe{
+	display: none;
+}
+
+.inactive{
+	/* background-color: #cbaf7f;
+	border-radius: 20px; */
+}
+
+.questions{
+	border-right: 2px solid #063651;
+}
+
+.active{
+	/* background-color: #ff882a;
+	border-radius: 20px; */
+	color: #EA650D;
+}
+
+.clickMe{
+    cursor: pointer;
+    /* color: #2e2925; */
+}
+
+.clickMe img{
+	width: 100%;
+}
+
+.showMe, .showMeClone{
+	padding: 0;
+	text-align:left;
+}
+
+/*Blue Background in answers NECESSARY*/
+
+.answers{
+	/*height: 300px;*/ /*how much blue background is y-extended*/
+}
+
+.instruction{
+	font-style: italic;
+	display: block;
+	text-align: center;
+}
+
+.lost{
+	display: none;
+}
+
+.foo{
+	height: auto;
+}
+
+/*TIP*/
+.tip{
+	position: relative;
+}
+
+.fa-paperclip::before {
+    position: absolute;
+    left: 18px;
+	top: 6px;
+	color: #fff;
+	font-size: 29px;
+}
+
+.tip > .inactive{
+	background: rgb(89,83,77); /* Old browsers */
+	background: -moz-linear-gradient(top, rgba(89,83,77,1) 0%, rgba(65,59,54,1) 50%, rgba(46,41,37,1) 100%); /* FF3.6-15 */
+	background: -webkit-linear-gradient(top, rgba(89,83,77,1) 0%,rgba(65,59,54,1) 50%,rgba(46,41,37,1) 100%); /* Chrome10-25,Safari5.1-6 */
+	background: linear-gradient(to bottom, rgba(89,83,77,1) 0%,rgba(65,59,54,1) 50%,rgba(46,41,37,1) 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+}
+
+.tip > .active{
+	background: #cbaf7f; /* Old browsers */
+	background: -moz-linear-gradient(top,  #cbaf7f 0%, #b59c71 50%, #876f49 100%); /* FF3.6-15 */
+	background: -webkit-linear-gradient(top,  #cbaf7f 0%,#b59c71 50%,#876f49 100%); /* Chrome10-25,Safari5.1-6 */
+	background: linear-gradient(to bottom,  #cbaf7f 0%,#b59c71 50%,#876f49 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+}
+
+.tip > .clickMe{
+	position: absolute;
+	left: 15px;
+	width: 120px;
+	border-top-right-radius: 20px;
+	border-bottom-right-radius: 20px;
+	border-bottom-left-radius: 0px;
+	border-top-left-radius: 0px;
+	padding: 6px;
+	color: #fff;
+	text-align: right;
+	padding-right: 30px;
+	
+	-webkit-box-shadow: 0px 5px 4px 0px rgba(0,0,0,0.25);
+	-moz-box-shadow: 0px 5px 4px 0px rgba(0,0,0,0.25);
+	box-shadow: 0px 5px 4px 0px rgba(0,0,0,0.25);
+}
+
+.tip > .showMe, .tip > .showMeClone{
+	font-family: 'Open Sans';
+	font-size: 24px;
+	color: #2e2925;
+
+	background: url('../../resources/layout/activities/cream_dust.png') repeat #fff;
+	z-index: -1;
+	padding-top: 40px;
+	border: 4px solid #cbaf7f;
+	border-top-left-radius: 20px;
+	border-bottom-left-radius: 20px;
+	border-bottom-right-radius: 20px;
+	-webkit-box-shadow: 0px 5px 8px 2px rgba(0,0,0,0.25);
+	-moz-box-shadow: 0px 5px 8px 2px rgba(0,0,0,0.25);
+	box-shadow: 0px 5px 8px 2px rgba(0,0,0,0.25);
+}
+
+.showMeClone{
+    visibility: hidden;
+}
+
+.myTip{
+	font-family: 'Open Sans';
+	font-weight: bold;
+	font-size: 24px;
+}
+
+.answersDiv{
+	position:initial;
+	margin-top:none;
+	visibility:visible;
+}
+
+/*
+.triangle_down{
+	opacity:0;
+	text-align: center;
+	padding:0 !important;
+	line-height: 0;
+	margin-top: 10px;
+}
+
+.triangle_left{
+	opacity:0;
+	text-align: right;
+	padding:0 !important;
+	margin-top: 1.5em;
+}
+*/
+
+@media (max-width:768px) {
+    .answers{
+		height: 200px;
+		/* background: #ebe7e4;
+		border-bottom-left-radius: 30px;
+		border-bottom-right-radius: 30px;
+		border-top-left-radius: 30px;
+		border-top-right-radius: 30px;
+		*/
+	}
+	
+	.answers.foo{
+		height: auto;
+		background: #053752 none repeat scroll 0% 0%;
+		color: #FFF;
+	}
+	
+	.answersDiv{
+		/*position: absolute;
+		visibility: hidden;
+		left: 0px;*/
+		position: fixed;
+		visibility: hidden;
+		top: 50%;
+		transform: translate(-50%, -50%);
+		-ms-transform: translate(-50%, -50%);
+		-webkit-transform: translate(-50%, -50%);
+		left: 50%;
+		width:80%;
+		z-index: 1000;
+	}
+    .showMe{
+		padding: 20px;
+	}
+
+	.triangle{
+		display:none;
+	}
+
+	.questions{
+		border:none;
+	}
+}

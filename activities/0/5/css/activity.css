@@ -1,0 +1,67 @@
+@charset "utf-8";
+/* CSS Document */
+
+/*change only if necessary for the activity*/
+
+/*activity dimensions*/
+.content {
+   /*width: 902px;*/
+}
+
+.section {
+	/*height: 520px;*/
+}
+
+.SourceItems {
+    margin-left: 10px;
+}
+
+.TargetItems > li {
+	/*list-style-type:decimal;*/
+	/*float:left;*/
+}
+
+.TrueFalse.DropDown > .stem{
+	/*width:4%;*/
+}
+
+ul.SourceItems > li, ul.TargetItems > li {
+   /* float: left;
+    list-style: decimal outside none;
+    width: 25%;*/
+}
+
+.SourceItems > li {
+    /*clear: none !important;*/
+}
+
+.SourceItems > li {
+   /* margin-top: 10px;*/
+}
+
+.selections{
+	color: red;
+}
+/*activity list style*/
+
+/*show text and extra content dimensions*/
+#showtext {
+	/*Remove comments where necessary if you want to give different dimensions to the showtext.*/
+	width: 700px;
+	height: 100%;
+} 
+
+ul.TrueFalse{
+	display:inline-block !important;
+}
+
+.activity_content {
+    margin-bottom: 50px;
+	text-align:center;
+}
+
+@media (max-width:768px) {
+	.rubric_content {
+		min-height: 50px;
+	}
+}

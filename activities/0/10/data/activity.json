@@ -1,0 +1,65 @@
+
+{
+	"elements" : {
+					"facilitator" : "In the design phase, the ID team creates a list of learning objectives that describes exactly what sales reps will need to know when they complete the training. They work closely with subject matter experts – also known as SMEs – to learn all they can about the new software.<br><br>The team also works hard to align their strategy with Acomb’s business goals and the sales reps’ needs. In this case, both groups want to increase sales, and train the sales team without having to take too much time off work.",
+					"showtext" : "",
+					"showgrammar" : "",
+					"showLF" : "",
+					"showUE" : "",
+					"showCU" : "",
+					"showaudio" : "",
+					"image":"", 
+					"audio":"0_11", 
+					"URLs":""
+	},
+	"ex" : {
+		"0" : {
+			"type" : "syncAudio",
+			"activeElement" : "activity",
+			"settings" : {
+				"typeOfCheck" : {
+					"type": "submit", 
+					"checkButton":false,
+					"cleanOnClick":"selection" 
+				},
+				"unit" : {
+					"number":"1",
+					"content":"Your World",
+					"subtitle":"Reading"
+				},
+				"autoPlayAudio" : true,
+				"hideTimebar" : false,
+				"equalColumns": false
+			},
+			"rubric" : {
+				"number" : "Acomb Case Study: Design <span class='pageNumbering'>1/3</span>",
+				"content" : "<strong>Actions:</strong> In the design phase, the ID team:</strong></div>"
+			},
+			"activity": {
+				"header" : [null,["plainText leftAlign",""],null],
+				"main" : [["image", "<img src=\"images/image0.png\">"],[["syncText","text1"]],["image", "<img src=\"images/image1.png\">"]],
+				"footer" : [null,null,null],
+				"timelineObject":[
+					{
+						"start": 2.31,
+						"target": "text1",
+						"text": "creates <strong>learning objectives</strong><br><br>",
+						"classText":""
+					},
+					{
+						"start": 10.97,
+						"target": "text1",
+						"text": "learns about the new software from <strong>SMEs</strong><br><br>",
+						"classText":""
+					},
+					{
+						"start": 16.56,
+						"target": "text1",
+						"text": "<strong>aligns</strong> course strategy with business goals and sales reps’ needs",
+						"classText":""
+					}
+				]
+			}
+		}
+	}
+}

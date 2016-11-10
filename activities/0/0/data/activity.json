@@ -1,0 +1,47 @@
+﻿{
+	"elements" : {"facilitator" : "As you work through this section, think about your reasons for wanting to learn about instructional design.",
+					"showtext" : "",
+					"showjusttext":"",
+					"showgrammar" : "",
+					"showLF" : "",
+					"showUE" : "",
+					"showaudio" : "",
+					"image":"", 
+					"audio":"new0_0", 
+					"URLs":""
+	},
+	"ex" : {
+		"0" : {
+			"type" : "display",
+			"activeElement" : "activity",
+			"settings" : {
+				"typeOfCheck" : {
+					"type": "individual", 
+					"checkButton":false,
+					"cleanOnClick":"selection"
+					
+				},
+				"unit" : {
+					"number":"1",
+					"content":"Your World",
+					"subtitle":"Reading"
+				},
+				"maxChars" : "20",
+				"howStrict" : "isLoose",
+				"substitute": true,
+				"autoPlayAudio" : true,
+				"closeButAppear" : true
+				
+			},
+			"rubric" : {
+				"number" : "Why Learn Instructional Design? ",
+				"content" : "These four people have different reasons for learning about instructional design. What are your reasons for learning about instructional design? Do you fit one of these profiles better than others, or are your needs completely different?<br><br><div class=\"colory\"><em>Click each picture to learn more.</em></div>"
+			},
+			"activity": {
+				"header" : [null,null,null],
+				"main" : [null,[["plainText","<div class=\"questions col-xs-12\"><div class=\"question_text\"><div class=\"clickMe_text col-xs-6 col-sm-3\">{{[0]<img src=\"images/image_4.png\"><div class=\"triangle\"><img src=\"../resources/layout/triangle/triangle_top.png\"></div>}}</div></div> <div class=\"question_text\"><div class=\"clickMe_text col-xs-6 col-sm-3\">{{[1]<img src=\"images/image_3.png\"><div class=\"triangle\"><img src=\"../resources/layout/triangle/triangle_top.png\"></div>}}</div></div> <div class=\"question_text\"><div class=\"clickMe_text col-xs-6 col-sm-3\">{{[2]<img src=\"images/image_2.png\"><div class=\"triangle\"><img src=\"../resources/layout/triangle/triangle_top.png\"></div>}}</div></div><div class=\"question_text\"><div class=\"clickMe_text col-xs-6 col-sm-3\">{{[3]<img src=\"images/image_1.png\"><div class=\"triangle\"><img src=\"../resources/layout/triangle/triangle_top.png\"></div>}}</div></div> </div><div class=\"col-xs-10 col-xs-offset-1 answersDiv\"><div class=\"answers\">@@[0]Mark is a 5<sup>th</sup> grade math teacher who is looking to convert classroom materials into eLearning. He wants to learn more about instructional design so he can make sure he does it the right way...and further his own career in the process.@@ @@[1]Bernadette is an experienced Project Manager at a large corporation. Over the years, she has enjoyed training many colleagues on various aspects of her work. She has no background in education, and simply wants to make sure that the training she offers reflects best practices.@@ @@[2]Javier is 22 years old. He recently graduated from university with a degree in English, and is still trying to figure out his career goals. He is not 100% sure what instructional design is, and would like to learn more about it.@@ @@[3]Tamara is a senior librarian for a large urban library system. She has been asked to put together a training curriculum that teaches new librarians about the library’s collections and processes. She has no idea where to begin.@@</div></div>"]],null],
+				"footer" : [null,null,null]
+			}
+		}
+	}
+}

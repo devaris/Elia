@@ -1,0 +1,71 @@
+
+{
+	"elements" : {
+					"facilitator" : "The ID team comes up with a strategy that includes a combination of online training, computer simulations, and an online knowledge base that will continue to support sales reps after the training is completed. They also develop an evaluation strategy that includes not only monitoring sales, but also following up with sales reps to make sure they continue to get support.",
+					"showtext" : "",
+					"showgrammar" : "",
+					"showLF" : "",
+					"showUE" : "",
+					"showCU" : "",
+					"showaudio" : "",
+					"image":"", 
+					"audio":"slide12", 
+					"URLs":""
+	},
+	"ex" : {
+		"0" : {
+			"type" : "syncAudio",
+			"activeElement" : "activity",
+			"settings" : {
+				"typeOfCheck" : {
+					"type": "submit", 
+					"checkButton":false,
+					"cleanOnClick":"selection" 
+				},
+				"unit" : {
+					"number":"1",
+					"content":"Your World",
+					"subtitle":"Reading"
+				},
+				"autoPlayAudio" : true,
+				"hideTimebar" : false,
+				"equalColumns": false
+			},
+			"rubric" : {
+				"number" : "Acomb Case Study: Design <span class='pageNumbering'>2/3</span>",
+				"content" : "<strong>Strategy:</strong> The strategy the ID team comes up with includes:"
+			},
+			"activity": {
+				"header" : [null,["plainText leftAlign",""],null],
+				"main" : [["image", "<img src=\"images/image0.png\">"],[["syncText","text1"]],["image", "<img src=\"images/image1.png\">"]],
+				"footer" : [null,null,null],
+				"timelineObject":[
+					{
+						"start": 3.731,
+						"target": "text1",
+						"text": "<strong>Online training</strong> that can be completed on a personal computer or mobile device<br>",
+						"classText":""
+					},
+					{
+						"start": 4.746,
+						"target": "text1",
+						"text": "<strong>Computer simulations</strong> that allow sales reps to work with the software’s new features<br>",
+						"classText":""
+					},
+					{
+						"start": 6.537,
+						"target": "text1",
+						"text": "An <strong>online knowledge base</strong> that sales reps can access after training<br>",
+						"classText":""
+					},
+					{
+						"start": 12.633,
+						"target": "text1",
+						"text": "An <strong>evaluation plan</strong> that includes monitoring sales and following up with sales reps to make sure they continue to get support",
+						"classText":""
+					}
+				]
+			}
+		}
+	}
+}

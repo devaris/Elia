@@ -1,0 +1,40 @@
+﻿@charset "utf-8";
+/* CSS Document */
+
+/*change only if necessary for the activity*/
+
+/*activity dimensions*/
+.content {
+   /*width: 702px;*/
+}
+
+.listBullet{
+	padding-right:0.3em;
+}
+
+.insideList{
+	list-style-type:none;
+	padding: 0 0 0 100px;
+}
+
+.section {
+	/*height: 600px;*/
+}
+/*activity dimensions*/
+
+/*show text and extra content dimensions*/
+#showtext {
+	/*Remove comments where necessary if you want to give different dimensions to the showtext.*/
+	width: 700px;
+	height: 100%;
+} 
+
+#text1{
+	text-align: left;
+}
+
+@media (max-width:768px) {
+	.rubric_content {
+		min-height: 20px;
+	}
+}

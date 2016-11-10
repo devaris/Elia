@@ -1,0 +1,103 @@
+﻿
+{
+	"elements" : {
+					"facilitator" : "Formative evaluation has been going on throughout the project.<br><br>• During the Analysis phase, the ID team checked their understanding of the project’s requirements with Acomb representatives to make sure they understood the project’s goals, learners, and content<br>• During the Design phase, Acomb managers and subject matter experts reviewed and approved the design document and storyboards<br>• Development went through Alpha, Beta, and Gold stages, undergoing technical as well as usability testing<br>• And as the course was implemented, the ID team continued to monitor the course to make sure problems didn’t emerge.<br><br>With most of the sales reps having completed the training, the ID team moves on to complete their Summative Evaluation of the course. They begin to analyze course feedback forms and final test scores. Three months after the training, the ID team observes a few sales reps on their jobs, to see how they’re applying what they learned. One year after training, the team will work with Acomb to see if there’s been an increase in sales.",
+					"showtext" : "",
+					"showgrammar" : "",
+					"showLF" : "",
+					"showUE" : "",
+					"showCU" : "",
+					"showaudio" : "",
+					"image":"", 
+					"audio":"0_14", 
+					"URLs":""
+	},
+	"ex" : {
+		"0" : {
+			"type" : "syncAudio",
+			"activeElement" : "activity",
+			"settings" : {
+				"typeOfCheck" : {
+					"type": "submit", 
+					"checkButton":false,
+					"cleanOnClick":"selection" 
+				},
+				"unit" : {
+					"number":"1",
+					"content":"Your World",
+					"subtitle":"Reading"
+				},
+				"autoPlayAudio" : true,
+				"hideTimebar" : false,
+				"equalColumns": true
+			},
+			"rubric" : {
+				"number" : "Acomb Case Study: Evaluation",
+				"content" : "Evaluation includes:"
+			},
+			"activity": {
+				"header" : [null,["plainText leftAlign",""],null],
+				"main" : [null,[["syncText","text1"]],[["syncText","text2"]]],
+				"footer" : [null,null,null],
+				"timelineObject":[
+					{
+						"start": 0,
+						"target": "text1",  
+						"text": "<img src=\"images/image1.png\" width=\"346\" height=\"100\">",
+						"classText":""
+					},
+					{
+						"start": 38.8,
+						"target": "text2",
+						"text": "<img src=\"images/image2.png\" width=\"362\" height=\"100\">",
+						"classText":""
+					},
+					{
+						"start": 3.4,
+						"target": "text1",
+						"text": "<strong>Analysis:</strong> checking understanding of project requirements, audience, content",
+						"classText":"textArrow"
+					},
+					{
+						"start": 14.3,
+						"target": "text1",
+						"text": "<strong>Design:</strong> design document and storyboard reviews",
+						"classText":"textArrow"
+					},
+					{
+						"start": 21.24,
+						"target": "text1",
+						"text": "<strong>Development:</strong> technical and usability testing",
+						"classText":"textArrow"
+					},
+					{
+						"start": 27.76,
+						"target": "text1",
+						"text": "<strong>Implementation:</strong> monitoring course for problems",
+						"classText":"textArrow"
+					},
+					
+					
+					{
+						"start": 43.41,
+						"target": "text2",
+						"text": "Final scores and course feedback",
+						"classText":"textArrow"
+					},
+					{
+						"start": 45.48,
+						"target": "text2",
+						"text": "Post-training field observations",
+						"classText":"textArrow"
+					},
+					{
+						"start": 54.88,
+						"target": "text2",
+						"text": "Monitor for increased sales",
+						"classText":"textArrow"
+					}
+				]
+			}
+		}
+	}
+}

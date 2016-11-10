@@ -1,0 +1,123 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title></title>
+
+<!--APPLICATION SETTINGS-->
+<link rel='stylesheet' href='http://fonts.googleapis.com/css?family=Open+Sans:300,300italic,400,400italic,600,600italic,700,700italic,800,800italic' type='text/css'>
+<link rel="stylesheet" href="../css/bootstrap.min.css">
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css">
+<!--<link rel="stylesheet" href="/assets/css/style.css" />-->
+<link rel="stylesheet" href="../css/inspinia/style.css" />
+
+<link href="../css/common/activities.css" rel="stylesheet" type="text/css">
+<link href="../css/common/viceroy.css" rel="stylesheet" type="text/css">
+<link href="../css/common/elia.css" rel="stylesheet" type="text/css">
+<link href="../css/activity/audioPlayer.css" rel="stylesheet" type="text/css">
+<link href="../css/activity/multipleChoice.css" rel="stylesheet" type="text/css">
+<link href="../css/activity/syncAudio.css" rel="stylesheet" type="text/css">
+
+<!--AUDIO PLAYER CSS - INCLUDE WITH AUDIO PLAYER JS-->
+<!--<link href="../css/common/audioPlayer.css" rel="stylesheet" type="text/css">-->
+    
+<!--jPlayer for video - SKIN-->
+<link type="text/css" href="../css/skin/blue.monday/css/jplayer.blue.monday.css" rel="stylesheet" />
+
+<!--EXTRA TEXT CSS-->
+<link rel="stylesheet" href="../css/lib/nanoscroller.css">
+<link rel="stylesheet" href="../css/common/extraText.css">
+
+<script src="../js/lib/jquery/jquery-1.11.3.min.js" type="text/javascript"></script>
+<!--<script src="http://code.jquery.com/ui/1.11.4/jquery-ui.min.js" type="text/javascript"></script>-->
+<script src="../js/lib/jquery/jquery.cookie.js"></script>
+    
+<!--jPlayer for video-->
+<script src="../js/lib/jPlayer/jquery.jplayer.js" type="text/javascript"></script>
+
+<!--ACTIVITY DATA-->
+<!--<script src="data/activity.js"></script>-->
+<script src="../js/common/common.js"></script>
+<script src="../js/lib/jquery.countdownccs.js"></script> 
+<script src="../js/common/contentcreator.js"></script>
+<script src="../js/common/audioPlaySounds.js"></script>
+<!--SCORING-->
+<script src="../js/activity/score.js"></script>
+<script src="../js/activity/multipleChoice.js"></script>
+<script src="../js/activity/syncAudio.js"></script>
+
+<!--EXTRA TEXT JS-->
+<script src="../js/lib/jquery.nanoscroller.min.js"></script>
+<script src="../js/common/extraText.js"></script>
+
+<!--AUDIO PLAYER JS - INCLUDE WITH AUDIO PLAYER CSS-->
+<!--<script src="../js/common/audioPlayer.js"></script>-->
+
+<!--INCLUDE THIS FOR BASIC SHOWTEXT FUNCTIONALITY-->
+<script src="../js/lib/jquery/jquery.tabSlideOut.v1.3.js"></script>
+
+<!--SHOWTEXT CONFIGURATION - GLOBAL-->
+<script type="text/javascript" src="../js/common/extraelements.js"></script>
+<!--SHOWTEXT CONFIGURATION - LOCAL-->
+<!--comment the tag above and uncomment the tag below if you need specific settings for the activity-->
+<!--<script type="text/javascript" src="/js/extraelements.js"></script>-->
+
+<!--PopCorn Library and edited timeline-->
+<script src="../js/lib/popcorn/popcorn.js"></script>
+<script src="../js/lib/popcorn.timeline.js"></script>
+
+<!--Animate css-->
+<link href="../css/lib/animate.css" rel="stylesheet" type="text/css">
+
+</head>
+	<body>
+		<div class="content text-center container-fluid">   
+     		<div class="section">
+                <!--ADD MORE activity CLASS DIVS FOR MORE ACTIVITIES PER PAGE-->
+                <div class="activity">
+                    <div class="activity_rubric col-xs-12"></div>
+                    <div class="activity_content col-xs-12"></div>        
+                </div>
+
+               <button id="checkAnswers">Submit</button> 
+                <button id="showAnswers">Show answers</button>   
+                <div id="myScoreElem">Score: <input type="text" id="myScore" readonly/></div>
+                <div id="myScorePercElem">Percentage: <input type="text" id="myScorePerc" readonly/>%</div>
+			</div>       
+   		</div>		
+	
+		<!--Extra text-->
+		    <div id="extraTextDiv" class="nano">
+            <div id="extraText_child" class="nano-content">
+            	<div id="extraText_child_div"></div>
+            	<object id="extraText_child_obj" name="extraText_obj" type="text/html" data="../activities/emptyobject.html" width="945px" height="600px"></object>
+            </div>
+        </div>
+
+		<!--end of extra text-->
+    <button id="ShowText" style="position:absolute;top:300px;">ShowText</button>
+    <button id="ShowJust" style="position:absolute;top:300px;">ShowJust</button>	
+    <button id="ShowGrammar" style="position:absolute;top:400px;">ShowGrammar</button>
+    <button id="ShowLF" style="position:absolute;top:500px;">ShowLF</button>
+    <button id="ShowAudio" style="position:absolute;top:600px;">ShowAudio</button>
+    <button id="ShowUE" style="position:absolute;top:700px;">showUE</button>
+    <button id="ShowCU" style="position:absolute;top:800px;">showCU</button>
+    <button id="ShowVideo" style="position:absolute;top:800px;">showVideo</button>
+	
+    <div class="tabs widgetText skin-setttings" id="facilitator">
+        <a class="handle spin-icon" href="http://link-for-non-js-users.html"><div class="facilitatortab fa fa-cogs"></div></a>
+    </div>	
+    <div class="tabs tab2 widgetText skin-setttings" id="facilitatorQ">
+        <a class="handle spin-icon" href="http://link-for-non-js-users.html"><div class="facilitatortab fa fa-question-circle"></div></a>
+    </div>
+    <!--end of extra elements -->
+    
+    <!-- Include all compiled plugins (below), or include individual files as needed -->
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
+    
+	<script src="../js/lib/retina/retina-1.1.0.min.js"></script>    
+</body>
+
+
+
+</html>

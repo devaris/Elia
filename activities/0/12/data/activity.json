@@ -1,0 +1,53 @@
+
+{
+	"elements" : {
+					"facilitator" : "The team delivers a high level design document that describes their strategy and a set of storyboards for the online course. It’s very important that Acomb approve these documents before the course goes into development.",
+					"showtext" : "",
+					"showgrammar" : "",
+					"showLF" : "",
+					"showUE" : "",
+					"showCU" : "",
+					"showaudio" : "",
+					"image":"", 
+					"audio":"slide13", 
+					"URLs":""
+	},
+	"ex" : {
+		"0" : {
+			"type" : "syncAudio",
+			"activeElement" : "activity",
+			"settings" : {
+				"typeOfCheck" : {
+					"type": "submit", 
+					"checkButton":false,
+					"cleanOnClick":"selection" 
+				},
+				"unit" : {
+					"number":"1",
+					"content":"Your World",
+					"subtitle":"Reading"
+				},
+				"autoPlayAudio" : true,
+				"hideTimebar" : false,
+				"equalColumns": false
+			},
+			"rubric" : {
+				"number" : "Acomb Case Study: Design <span class='pageNumbering'>3/3</span>",
+				"content" : "<strong>Deliverables:</strong> Design document and storyboards."
+			},
+			"activity": {
+				"header" : [null,["plainText leftAlign",""],null],
+				"main" : [["image", "<img src=\"images/image0.png\">"],[["syncText","text1"]],["image", "<img src=\"images/image1.png\">"]],
+				"footer" : [null,null,null],
+				"timelineObject":[
+					{
+						"start": 7.636,
+						"target": "text1",
+						"text": "Acomb needs to <strong>approve</strong> these documents before the course goes into development.",
+						"classText":""
+					}
+				]
+			}
+		}
+	}
+}

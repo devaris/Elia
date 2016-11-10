@@ -1,0 +1,58 @@
+﻿{
+	"elements" : {
+					"facilitator" : "In the analysis phase, the Instructional design team wants to understand what’s driving the project from a business standpoint, and find out all they can about, the learners, the training environment and the content. By speaking with their client, they learn:<br><br>• that the reason Acomb upgraded its software was in response to competition and<br>• that the success of the project will be measured mostly in terms of increased sales.<br>• They learn who the sales representatives are, and that they’d probably prefer <strong>not</strong> to taking time off for training.<br>• And they learn that because the new software is so different from the old version, it makes sense to design a course that can be used to train new hires, as well as current salespeople.<br><br>The designers know a lot about the sales reps, but they decide to interview some of them in person so they can learn more about how they actually work. By talking directly with their target audience, the instructional designers will be better able to meet their needs.",
+					"showtext" : "",
+					"showgrammar" : "",
+					"showLF" : "",
+					"showUE" : "",
+					"showCU" : "",
+					"showaudio" : "",
+					"image":"", 
+					"audio":"0_10", 
+					"URLs":""
+	},
+	"ex" : {
+		"0" : {
+			"type" : "syncAudio",
+			"activeElement" : "activity",
+			"settings" : {
+				"typeOfCheck" : {
+					"type": "submit", 
+					"checkButton":false,
+					"cleanOnClick":"selection" 
+				},
+				"unit" : {
+					"number":"1",
+					"content":"Your World",
+					"subtitle":"Reading"
+				},
+				"autoPlayAudio" : true,
+				"hideTimebar" : false,
+				"equalColumns": false
+			},
+			"rubric" : {
+				"number" : "Acomb Case Study: Analysis",
+				"content" : "By speaking with their client, the IDs learn:"
+			},
+			"activity": {
+				"header" : [null,["plainText leftAlign",""],null],
+				"main" : [null,[["syncText","text1"],["syncText","text2"],["syncText","text3"]] ],
+				"footer" : [null,null,null],
+				"timelineObject":[
+					{
+						"start": 7.05,
+						"target": "text2",
+						"text": "<table><tr><th>Training Environment</th><th>Learners</th><th>Content</th></tr>  <tr><td><ul><li>upgraded software in response to competitive pressure</ul></li></td><td><ul><li>mostly male</ul></li></td><td>To be used by:</td></tr>  <tr><td><ul><li>success will be measured in terms of increased sales</ul></li></td><td><ul><li>ages 25-50</ul></li></td><td><ul><li>new hires</ul></li></td></tr>  <tr><td></td><td><ul><li>who travel a lot</ul></li></td><td><ul><li>current sales people</ul></li></td></tr> <tr><td></td><td><ul><li>would resist taking time off for training</ul></li></td><td></td></tr></table>",
+						"classText":""
+					},
+					{
+						"start": 7.07,
+						"target": "text2",
+						"text": "<br>The IDs will support this knowledge by interviewing several salespeople in the field.",
+						"classText":""
+					}
+				]
+			}
+		}
+	}
+}

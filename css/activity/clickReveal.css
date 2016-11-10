@@ -1,0 +1,78 @@
+@charset "utf-8";
+/* CSS Document */
+
+
+.showMe{
+	display: none;
+}
+
+/* .inactive{
+	background-color: #FBBA00;
+} */
+
+.active{
+	color: #ec6608;
+		
+}
+
+.triangle {
+
+opacity:0;
+}
+
+
+.clickMe{
+	cursor:pointer;
+}
+
+
+
+.clickMe img{
+	width: 100%;
+}
+
+
+.showMe{
+	padding: 2%;
+	text-align:left;
+}
+
+@media (max-width:768px) {
+    .showMe{
+		padding: 0%;
+	}
+}
+
+
+/*Blue Background in answers NECESSARY*/
+.answers{
+	/* height: 300px;*/ /*how much blue background is y-extended*/
+	/*background: #DFF1FD; */
+}
+
+@media (max-width:768px) {
+    .answers{
+		height: 200px;
+	}
+}
+
+.instruction{
+	font-style: italic;
+	display: block;
+	text-align: center;
+}
+
+.lost{
+	display: none;
+}
+
+.foo{
+	height: auto;
+}
+
+
+
+
+
+
+

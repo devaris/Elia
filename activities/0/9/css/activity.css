@@ -1,0 +1,63 @@
+@charset "utf-8";
+/* CSS Document */
+
+/*change only if necessary for the activity*/
+
+/*activity dimensions*/
+.content {
+   /*width: 702px;*/
+}
+
+.section {
+	/*height: 600px;*/
+}
+/*activity dimensions*/
+
+
+/*activity list style*/
+.myCheck {
+	/*Add style if necessary>*/	
+}
+
+/*show text and extra content dimensions*/
+#showtext {
+	/*Remove comments where necessary if you want to give different dimensions to the showtext.*/
+	width: 700px;
+	height: 100%;
+} 
+
+#text2{
+	text-align: left;
+}
+
+table {
+	width:100%;
+}
+
+th{
+	background-color:#053752;
+	color:#fff;
+	padding:10px;
+	border-left:5px solid #fff;
+}
+
+td{
+	background-color:#dce3e6;
+	color:#000;
+	padding:10px;
+	border-left:5px solid #fff;
+}
+
+td ul > li::before {
+	color:#000;
+}
+
+td ul, td ul > li{
+	margin:0;
+}
+
+@media (max-width:768px) {
+	.rubric_content {
+		min-height: 0px;
+	}
+}

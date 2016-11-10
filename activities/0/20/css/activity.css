@@ -1,0 +1,92 @@
+@charset "utf-8";
+/* CSS Document */
+
+/*change only if necessary for the activity*/
+
+/*activity dimensions*/
+.content {
+}
+
+.section {
+}
+/*activity dimensions*/
+
+/*activity list style*/
+ul.SourceItems > li {
+}
+
+ul.SourceItems{
+	border: 2px solid #999999;
+    padding-left: 0px;
+    padding-right: 1em;
+    width: auto;
+    display: inline-block;
+}
+
+ul.TargetItems > li {
+	list-style: decimal outside none;
+	line-height: 30px;
+	clear:both;
+}
+
+ul.SourceItems > li > span.itemIsActive, ul.TargetItems > li > span.itemIsActive{
+	border-radius:5px;
+	margin-left:30px;
+}
+
+ul.TargetItems {
+}
+
+ul.TargetItems  > li{
+    padding-top: 5px;
+}
+
+/*show text and extra content dimensions*/
+#showtext {
+	/*width: 300px;*/
+}
+
+.drop{
+	line-height: 50px;
+}
+
+.activity_content{
+    clear: both;
+}
+
+.rubric_content {
+    text-align: left;
+}
+
+.rubric_content>span{
+    display: block;
+    text-align: left;
+}
+
+.activity_content > div:nth-child(1) {
+	padding: 1%;
+    width: 100%;
+	margin: 0 auto;
+}
+
+div.activity{
+	margin-bottom:0px;
+}
+
+.myImage img {
+	width:20%;
+}
+
+.myImage {
+	text-align:left;
+}
+
+.activity {
+	text-align:left;
+}
+
+@media (max-width:768px) {
+	.rubric_content {
+		min-height: 50px;
+	}
+}

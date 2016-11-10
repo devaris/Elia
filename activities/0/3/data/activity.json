@@ -1,0 +1,47 @@
+﻿{
+	"elements" : {"facilitator" : "Instructional Design involves the analysis of learning needs and the use of theoretically based principles of learning for the systematic development of instruction. Instructional designers specify a method which, if followed, will facilitate the transfer of knowledge, skills and attitudes to the learner, and then evaluate outcomes to make sure learning occurs.",
+					"showtext" : "",
+					"showjusttext":"",
+					"showgrammar" : "",
+					"showLF" : "",
+					"showUE" : "",
+					"showaudio" : "",
+					"image":"", 
+					"audio":"new0_3", 
+					"URLs":""
+	},
+	"ex" : {
+		"0" : {
+			"type" : "display",
+			"activeElement" : "activity",
+			"settings" : {
+				"typeOfCheck" : {
+					"type": "individual", 
+					"checkButton":false,
+					"cleanOnClick":"selection"
+					
+				},
+				"unit" : {
+					"number":"1",
+					"content":"Your World",
+					"subtitle":"Reading"
+				},
+				"maxChars" : "20",
+				"howStrict" : "isLoose",
+				"substitute": true,
+				"autoPlayAudio" : true,
+				"closeButAppear" : true
+				
+			},
+			"rubric" : {
+				"number" : "Elements of Instructional Design",
+				"content" : "This definition contains the following elements<br><br><div class=\"colory\"><em>Click each link for more information:</em></div>"
+			},
+			"activity": {
+				"header" : [null,null,null],
+				"main" : [null,[["plainText","<div class=\"questions col-sm-6 col-xs-12\"><div class=\"question_text\"><div class=\"clickMe_text col-xs-11\">{{[0]ID Involves Analysis}}</div><div class=\"triangle col-xs-1\"><img src=\"../resources/layout/triangle/triangle_left.png\"></div></div> <div class=\"question_text\"><div class=\"clickMe_text col-xs-11\">{{[1]ID Uses Theory}}</div><div class=\"triangle col-xs-1\"><img src=\"../resources/layout/triangle/triangle_left.png\"></div></div> <div class=\"question_text\"><div class=\"clickMe_text col-xs-11\">{{[2]ID is Systematic}}</div><div class=\"triangle col-xs-1\"><img src=\"../resources/layout/triangle/triangle_left.png\"></div></div><div class=\"question_text\"><div class=\"clickMe_text col-xs-11\">{{[3]ID Specifies a Method}}</div><div class=\"triangle col-xs-1\"><img src=\"../resources/layout/triangle/triangle_left.png\"></div></div> <div class=\"question_text\"><div class=\"clickMe_text col-xs-11\">{{[4]ID Evaluates Outcomes}}</div><div class=\"triangle col-xs-1\"><img src=\"../resources/layout/triangle/triangle_left.png\"></div></div></div><div class=\"col-sm-5 col-xs-12 answersDiv\"><div class=\"answers\">@@[0]Instructional designers make sure they understand the <strong>business context, learners, learning environment</strong>, and <strong>content</strong> before developing appropriate instructional strategies.@@ @@[1]Instructional designers understand <strong>how people learn</strong> and use this knowledge to create solutions for specific learning goals.@@ @@[2]Instructional designers do not make decisions based solely on creative impulse; they use a <strong>systematic process</strong> to make sure nothing is missed.@@ @@[3]Instructional designers write <strong>specifications</strong> for learning, including course structure, learning activities, and choice of technologies, but they do not always translate those specifications into the final product; development is often handled by other people.@@ @@[4]Instructional designers <strong>evaluate outcomes</strong> to ensure that transfer of knowledge, skills, and attitudes occurs.@@</div></div>"]],null],
+				"footer" : [null,null,null]
+			}
+		}
+	}
+}

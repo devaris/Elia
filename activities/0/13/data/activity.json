@@ -1,0 +1,83 @@
+﻿
+{
+	"elements" : {
+					"facilitator" : "In the development phase, the ID team hands the design document and storyboards to developers, who begin developing the interface, quizzes, graphics, animations, audio, and simulations that will be used in the course. The ID team remains on hand to oversee this work and answer any questions.<br><br>After some time, the developers produce an <strong>Alpha</strong> version of the course, which is reviewed by the ID team and Acomb’s subject matter experts. A few features are changed, and the developers produce a <strong>Beta</strong> version. The course then undergoes <strong>usability testing</strong> with a handful of sales reps, and final revisions are made based on their feedback.<br><br>The final version of the course is considered <strong>Gold:</strong> ready to be deployed. Once Acomb approves it, the course is ready to go live!",
+					"showtext" : "",
+					"showgrammar" : "",
+					"showLF" : "",
+					"showUE" : "",
+					"showCU" : "",
+					"showaudio" : "",
+					"image":"", 
+					"audio":"0_12", 
+					"URLs":""
+	},
+	"ex" : {
+		"0" : {
+			"type" : "syncAudio",
+			"activeElement" : "activity",
+			"settings" : {
+				"typeOfCheck" : {
+					"type": "submit", 
+					"checkButton":false,
+					"cleanOnClick":"selection" 
+				},
+				"unit" : {
+					"number":"1",
+					"content":"Your World",
+					"subtitle":"Reading"
+				},
+				"autoPlayAudio" : true,
+				"hideTimebar" : false,
+				"equalColumns": false
+			},
+			"rubric" : {
+				"number" : "Acomb Case Study: Development",
+				"content" : "The Development phase:"
+			},
+			"activity": {
+				"header" : [null,null,null],
+				"main" : [null,[["syncText","text1"]],null],
+				"footer" : [null,null,null],
+				"timelineObject":[
+					{
+						"start": 0,
+						"target": "text1",
+						"text": "<img src=\"images/image_1.png\">",
+						"classText":""
+					},
+					{
+						"start": 1.30,
+						"target": "text1",
+						"text": "<img src=\"images/image_2.png\">",
+						"classText":""
+					},
+					{
+						"start": 4.11,
+						"target": "text1",
+						"text": "<img src=\"images/image_3.png\">",
+						"classText":""
+					},
+					{
+						"start": 18.23,
+						"target": "text1",
+						"text": "<img src=\"images/image_4.png\">",
+						"classText":""
+					},
+					{
+						"start": 27.65,
+						"target": "text1",
+						"text": "<img src=\"images/image_5.png\">",
+						"classText":""
+					},
+					{
+						"start": 38.59,
+						"target": "text1",
+						"text": "<img src=\"images/image_6.png\">",
+						"classText":""
+					}
+				]
+			}
+		}
+	}
+}

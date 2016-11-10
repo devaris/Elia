@@ -1,0 +1,88 @@
+﻿@charset "utf-8";
+/* CSS Document */
+
+/*Blue Background in answers NECESSARY*/
+
+.section{
+	/*display:table-row;*/
+}
+
+div.content {
+	text-align: left;
+}
+
+.questions{
+	border-right:none;
+	padding-right:0;
+}
+
+.answersDiv{
+	border-top: 2px solid #063651;
+	padding:10px 0 0 0;
+}
+
+@media (max-width:768px){
+	.answersDiv{
+		border:none;
+	}
+}
+
+/*show text and extra content dimensions*/
+#showtext {
+	/*Remove comments where necessary if you want to give different dimensions to the showtext.*/
+	width: 700px;
+	height: 100%;
+} 
+
+.answers {
+	text-align: left;
+	/*margin-bottom: 80px;*/
+}
+
+.clickMe {
+	width:100%;
+	text-align:center;
+	margin:0 auto;
+}
+
+.clickMe img{
+	width:auto;
+	/*max-width:65px;*/
+}
+
+.triangle{
+	opacity:0;
+	text-align: center;
+	padding:0 !important;
+	line-height: 0;
+	margin-top: 10px;
+}
+
+@media (max-width:768px) {
+	.questions{
+		border:none;
+		padding: 0px;
+	}
+	.figure{
+		z-index:-1;
+	}
+	img{
+		width:30% !important;
+	}
+	.clickMe_text{
+		padding-bottom:30px;
+	}
+	.rubric_content {
+		min-height: 50px;
+	}
+}
+
+.image{
+	min-width:0 !important;
+	max-width:none;
+}
+
+.plainText{
+	position:relative;
+	padding-top:5%;
+}

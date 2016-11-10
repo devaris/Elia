@@ -1,0 +1,77 @@
+﻿
+{
+	"elements" : {
+					"facilitator" : "In this lesson:<br><br>• You defined instructional design in terms of its key elements, which include analysis, theory, systematic development, writing specifications, and evaluating outcomes.<br>• You learned about the ADDIE model for systematic instructional design, and reviewed a case study that showed ADDIE in action and you identified ADDIE’s advantages and disadvantages.<br>• You learned that to become an instructional designer, you need an interdisciplinary skill set that includes some knowledge of learning, technology, business, and a lot of creativity.<br>• And finally, you examined your own skills and interests to develop an action plan for furthering your instructional design career.<br><br>With this lesson, you’ve established a firm foundation for understanding instructional design and more importantly, for finding your own niche in the field. With this foundation in place, you’re ready to move on to the next lesson!",
+					"showtext" : "",
+					"showgrammar" : "",
+					"showLF" : "",
+					"showUE" : "",
+					"showCU" : "",
+					"showaudio" : "",
+					"image":"", 
+					"audio":"0_21", 
+					"URLs":""
+	},
+	"ex" : {
+		"0" : {
+			"type" : "syncAudio",
+			"activeElement" : "activity",
+			"settings" : {
+				"typeOfCheck" : {
+					"type": "submit", 
+					"checkButton":false,
+					"cleanOnClick":"selection" 
+				},
+				"unit" : {
+					"number":"1",
+					"content":"Your World",
+					"subtitle":"Reading"
+				},
+				"autoPlayAudio" : false,
+				"hideTimebar" : false,
+				"equalColumns": false
+			},
+			"rubric" : {
+				"number" : "Lesson Summary",
+				"content" : "In this lesson, you learned about the field of <strong>Instructional Design (ID)</strong> and clarified your goals. You learned:<br><br><div class=\"colory\"><em>Click the Play button to begin.</em></div>"
+			},
+			"activity": {
+				"header" : [null,null,null],
+				"main" : [null,[["syncText","text1"]],["image", "<img src=\"images/image1.png\">"]],
+				"footer" : [null,null,null],
+				"timelineObject":[
+					{
+						"start": 1.09,
+						"target": "text1",
+						"text": "<strong>definition</strong> of instructional design includes:<br/><ul class=\"insideList\"><li>analysis</li><li>learning theory</li><li>systematic development</li><li>specification of methods</li><li>evaluation of outcomes</li></ul>",
+						"classText":"textArrow"
+					},
+					{
+						"start": 11.24,
+						"target": "text1",
+						"text": "the <strong>ADDIE</strong> model for systematic instructional design",
+						"classText":"textArrow"
+					},
+					{
+						"start": 17.50,
+						"target": "text1",
+						"text": "advantages and disadvantages of ADDIE",
+						"classText":"textArrow"
+					},
+					{
+						"start": 20.96,
+						"target": "text1",
+						"text": "core instructional design <strong>skills:</strong> learning, technology, business, creativity",
+						"classText":"textArrow"
+					},
+					{
+						"start": 31.70,
+						"target": "text1",
+						"text": "<strong>your</strong> skills and interests and an <strong>Action Plan</strong> for furthering your career",
+						"classText":"textArrow"
+					}
+				]
+			}
+		}
+	}
+}

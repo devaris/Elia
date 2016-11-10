@@ -1,0 +1,55 @@
+﻿@charset "utf-8";
+/* CSS Document */
+
+.questions{
+	padding-right:0;
+	padding-left:0;
+	padding-bottom: 1.5em;
+	margin-left:15px;
+}
+
+.activity_content .row{
+	display: block;
+	width: 100%;
+}
+
+/*show text and extra content dimensions*/
+#showtext {
+	/*Remove comments where necessary if you want to give different dimensions to the showtext.*/
+	width: 700px;
+	height: 100%;
+} 
+
+.clickMe_text{
+	margin-top:1.5em;
+	text-align:right;
+}
+
+.triangle{
+	opacity:0;
+	text-align: right;
+	padding:0 !important;
+	margin-top: 1.5em;
+}
+
+@media (max-width:768px) {
+	.clickMe_text{
+		text-align: left;
+		padding:0;
+		margin:0;
+		margin-bottom:1.5em;
+	}
+	.rubric_content {
+		min-height: 0px;
+	}
+	.plainText{
+		padding-left:10px;
+	}
+	.questions {
+		margin: 0;
+	}
+	.closebtn{
+		right: 20px;
+		top: 2px;
+	}
+}

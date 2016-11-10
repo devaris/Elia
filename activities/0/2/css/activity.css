@@ -1,0 +1,86 @@
+@charset "utf-8";
+/* CSS Document */
+
+/*Blue Background in answers NECESSARY*/
+.answers{
+	/*background: #E9F7C9; */
+	/*#DFF1FD;*/
+	text-align:left;
+}
+
+
+
+/*show text and extra content dimensions*/
+#showtext {
+	/*Remove comments where necessary if you want to give different dimensions to the showtext.*/
+	width: 700px;
+	height: 100%;
+} 
+
+.myform {
+	text-align: left;
+	width: 100%;
+	/*padding-bottom: 30%;*/
+	margin-bottom: 2%;
+}
+
+.colour1 {
+	text-align:left;
+	border-bottom: solid #000000;
+	border-bottom-width: 1px;
+}
+
+.myButton{
+	display: inline-block;
+	color: #FFFFFF;
+	float: right;
+}
+
+.clickMe {
+	padding-left:15px;
+	padding-right:15px;
+	padding-top:3px;
+	padding-bottom:3px;
+	background-color:#053752;
+	font-weight:bold;
+}
+
+.active {
+	background-color:#EC6608;
+	color:#fff;
+}
+
+.colour2 {
+	margin-top:20px;
+	padding-bottom:6%;
+	text-align:left;
+}
+
+.colour3 {
+	text-align:left;
+	padding-left:15px;
+	border-bottom: solid #000000;
+	border-bottom-width: 1px;
+}
+
+.showMe {
+	padding:50px 0 0 0;
+    text-align: left;
+}
+
+@media (max-width:768px) {
+    .colour2{
+		padding-bottom:10%;
+	}
+    .colour3{
+		margin-top:5%;
+	}
+	.answers.foo {
+		height: auto;
+		background: none;
+		color: #000;
+	}
+	.showMe {
+		padding: 20px 0 0 0;
+	}
+}

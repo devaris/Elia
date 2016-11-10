@@ -1,0 +1,80 @@
+﻿@charset "utf-8";
+/* CSS Document */
+
+/*show text and extra content dimensions*/
+#showtext {
+	/*Remove comments where necessary if you want to give different dimensions to the showtext.*/
+	width: 700px;
+	height: 100%;
+} 
+
+ul { 
+	list-style-type: none;
+	color:black;
+}
+
+.mytext {
+	text-align:center;
+}
+
+ul li:before {
+	content: "";
+}
+
+.plainText li{
+	margin-bottom:20px;
+}
+
+.activity_rubric{
+	display:none;
+}
+
+.nexttitle{
+	text-align:center;
+	font-size:56px;
+	margin-top:30px;
+	margin-bottom:0px;
+	padding-bottom:0px;
+}
+
+.nextlessondesc{
+	padding-top:0px;
+	margin-bottom:20px;
+	font-size:18px;
+}
+
+.nextlesson{
+	clear:both;
+	text-align: center;
+}
+.nextlesson p{
+	display: inline-block;
+	color: #fff;
+	background: #ec6608;
+	margin: 20px 10px 20px 10px;
+	padding: 10px 20px 10px 20px;
+	font-weight: 600;
+	position: relative;
+	margin-bottom:30px;
+	font-size:20px;
+}
+
+.nextlesson p:after {
+	top: 100%;
+	left: 50%;
+	border: solid transparent;
+	content: " ";
+	height: 0;
+	width: 0;
+	position: absolute;
+	pointer-events: none;
+	border-top-color: #ec6608;
+	border-width: 25px;
+	margin-left: -25px;
+}
+
+@media (max-width:768px) {
+	.nextlist ul{
+		padding-left:0;
+	}
+}

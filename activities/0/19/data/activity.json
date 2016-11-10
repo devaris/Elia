@@ -1,0 +1,44 @@
+{
+	"elements" : {"facilitator" : "Take a moment to reflect on your own skills and interests by completing this questionnaire. After you complete it, consider your plan for building the skills that will help you become a well-rounded instructional designer. Be sure to include specific actions and timeframes for achieving your goals. ",
+					"showtext" : "",
+					"showgrammar" : "",
+					"showLF" : "",
+					"showUE" : "",
+					"showCU" : "",
+					"showaudio" : "",
+					"image":"", 
+					"audio":"new0_17", 
+					"URLs":""
+	},
+	"ex" : {
+		"0" : {
+			"type" : "display",
+			"activeElement" : "activity",
+			"settings" : {
+				"typeOfCheck" : {
+					"type": "submit", 
+					"checkButton":false,
+					"cleanOnClick":"selection"
+				},
+				"unit" : {
+					"number":"1",
+					"content":"Your World",
+					"subtitle":"Reading"
+				},
+				"maxChars" : "20",
+				"howStrict" : "isLoose",
+				"autoPlayAudio" : true,
+				"hideTimebar" : false
+			},
+			"rubric" : {
+				"number" : "Reflection: Assess Your Skills",
+				"content" : "Reflect on your own skills and interests by downloading and completing the questionnaire. It will help you identify your present skill level and your interest in learning. After you complete it, consider a plan for building the skills you require."
+			},
+			"activity": {
+				"header" : [null,null,null],
+				"main" : [null,[["image side_by_side", "<a href=\"../resources/pdfs/Lesson_1_Questionnaire.pdf\" target=\"_blank\"><img src=\"images/image1.png\"></a>"],["image side_by_side", "<img src=\"images/image_2.png\">"]],null],
+				"footer" : [null,["plainText leftAlign","A <strong>Professional Action Plan</strong> template is included among your Course Resources. "],null]
+			}
+		}
+	}
+}

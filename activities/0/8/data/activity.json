@@ -1,0 +1,77 @@
+
+{
+	"elements" : {
+					"facilitator" : "Acomb is a leading provider of business management software. The company recently upgraded its most popular product: a client management solution that lets people manage scheduling, inventories, billing, and more. Unfortunately, this upgrade creates problems for sales representatives, who not only need to understand the product’s technical capabilities – but communicate them to clients.<br><br>Acomb has hired an instructional design firm to train its sales staff. Click <strong>Next</strong> to see how they handle this project.",
+					"showtext" : "",
+					"showgrammar" : "",
+					"showLF" : "",
+					"showUE" : "",
+					"showCU" : "",
+					"showaudio" : "",
+					"image":"", 
+					"audio":"0_9", 
+					"URLs":""
+	},
+	"ex" : {
+		"0" : {
+			"type" : "syncAudio",
+			"activeElement" : "activity",
+			"settings" : {
+				"typeOfCheck" : {
+					"type": "submit", 
+					"checkButton":false,
+					"cleanOnClick":"selection" 
+				},
+				"unit" : {
+					"number":"1",
+					"content":"Your World",
+					"subtitle":"Reading"
+				},
+				"autoPlayAudio" : false,
+				"hideTimebar" : false,
+				"equalColumns": false
+			},
+			"rubric" : {
+				"number" : "Case Study: ADDIE in Action",
+				"content" : "You just learned about the five stages of the <strong>ADDIE</strong> model. Now, let’s see how this model might be used on an instructional design project.<br><br><div class=\"colory\"><em>Press the Play button to begin.</em></div>"
+			},
+			"activity": {
+				"header" : [null,null,null],
+				"main" : [["image", "<img src=\"images/image0.png\">"],[["syncText","text1"]],["image", "<img src=\"images/image1.png\">"]],
+				"footer" : [null,null,null],
+				"timelineObject":[
+					{
+						"start": 0.1,
+						"target": "text1",
+						"text": "<strong>The Client: Acomb, Inc.</strong><br><br>",
+						"classText":"colorTitle"
+					},
+					{
+						"start": 0.57,
+						"target": "text1",
+						"text": "<strong>Who:</strong> leading provider of business management software<br><br>",
+						"classText":""
+					},
+					{
+						"start": 3.49,
+						"target": "text1",
+						"text": "<strong>Background:</strong> recent upgrade of popular client management software product<br><br>",
+						"classText":""
+					},
+					{
+						"start": 16.98,
+						"target": "text1",
+						"text": "<strong>Need:</strong> software training for sales representatives<br><br>",
+						"classText":""
+					},
+					{
+						"start": 25.74,
+						"target": "text1",
+						"text": "<em>Click <strong>Next</strong> to see the ADDIE model in action.</em>",
+						"classText":"colory"
+					}
+				]
+			}
+		}
+	}
+}

@@ -1,0 +1,48 @@
+@charset "utf-8";
+/* CSS Document */
+
+a img{
+border:0;
+}
+
+img.imageChoicePos{
+	vertical-align:top;
+}
+
+.mymark {
+	float: right;
+}
+
+html[dir="rtl"] .mymark {
+	float: left;
+}
+
+.tags {	
+	float: left;
+    padding: 0 0 0 3%;
+    width: 40%;
+}
+
+html[dir="rtl"] .tags {	
+	float: right;
+    padding: 0 3% 0 0;
+}
+
+.inbetween_ul {	
+	float: left;
+    padding: 0;
+    width: 14%;
+}
+
+html[dir="rtl"] .inbetween_ul {	
+	float: right;
+}
+
+.myCheck {
+	/*position: relative;
+	top:0;	*/
+}
+
+.htmlDataAfter {
+    clear: both;
+}

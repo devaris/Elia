@@ -1,0 +1,43 @@
+﻿{
+	"elements" : {"facilitator" : "Instructional designers use a <strong>systematic <em>process</em></strong> for developing educational and training programs. Often, this process is presented as an <strong>instructional design model</strong>, which can be applied to an ID project from beginning to end. A widely used model is the ADDIE model. Let’s examine the ADDIE model in closer detail. ",
+					"showtext" : "",
+					"showgrammar" : "",
+					"showLF" : "",
+					"showUE" : "",
+					"showCU" : "",
+					"showaudio" : "",
+					"image":"", 
+					"audio":"new0_6", 
+					"URLs":""
+	},
+	"ex" : {
+		"0" : {
+			"type" : "display",
+			"activeElement" : "activity",
+			"settings" : {
+				"typeOfCheck" : {
+					"type": "submit", 
+					"checkButton":false,
+					"cleanOnClick":"selection"
+				},
+				"unit" : {
+					"number":"1",
+					"content":"Your World",
+					"subtitle":"Reading"
+				},
+				"maxChars" : "20",
+				"howStrict" : "isLoose",
+				"autoPlayAudio" : true				
+			},
+			"rubric" : {
+				"number" : "Instructional Design Process",
+				"content" : ""
+			},
+			"activity": {
+				"header" : [null,null,null],
+				"main" : [null,[["plainText side_by_side col-md-12 myText","More than 100 instructional design models exist, but most are a variation of the <strong>ADDIE</strong> model, which categorizes ID into five distinct phases. By making certain that one phase is <strong>completed</strong> before the next phase begins, the ADDIE model provides a <strong>framework</strong> for course development that makes certain no details are missed."],["image side_by_side col-md-12", "<img src=\"images/image.png\">"],["plainText side_by_side col-md-12 myText","Let’s examine the ADDIE model in closer detail."]],null],
+				"footer" : [null,null,null]
+			}
+		}
+	}
+}

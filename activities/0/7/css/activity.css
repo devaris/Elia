@@ -1,0 +1,82 @@
+﻿@charset "utf-8";
+/* CSS Document */
+
+.showMe {
+	text-align:left;
+}
+
+div.content {
+	text-align: left;
+}
+
+.questions{
+	border-right:none;
+	padding-right:0;
+}
+
+.triangle{
+	opacity:0;
+	text-align: center;
+	padding:0 !important;
+	line-height: 0;
+	margin-top: 10px;
+}
+
+/*show text and extra content dimensions*/
+#showtext {
+	/*Remove comments where necessary if you want to give different dimensions to the showtext.*/
+	width: 700px;
+	height: 100%;
+} 
+
+.clickMe {
+	width:70%;
+	text-align:center;
+	margin:0 auto;
+}
+
+.clickMe img{
+	width:auto;
+}
+
+.figure > a > img{
+	width:40%;
+	float:left;
+	z-index:-1;
+}
+
+.plainText{
+	line-height:35px !important;
+	text-align:center;
+}
+
+.answersDiv{
+	border-top: 2px solid #063651;
+	padding:10px 0 0 0;
+}
+
+@media (max-width:768px){
+	.answersDiv{
+		border:none;
+		left: auto;
+		transform: translate(-30px, -44%);
+		-ms-transform: translate(-30px, -44%);
+		-webkit-transform: translate(-30px, -44%);
+	}
+	.figure > a > img{
+		width:100%;
+		float:left;
+	}
+	.rubric_content {
+		min-height: 50px;
+	}
+	.clickMe_text{
+		padding-bottom:40px;
+	}
+}
+
+@media (max-height:768px){
+	.showMe {
+		line-height:1 !important;
+	}
+}

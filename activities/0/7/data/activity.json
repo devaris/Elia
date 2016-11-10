@@ -1,0 +1,47 @@
+﻿{
+	"elements" : {
+					"showtext" : "",
+					"showjusttext":"",
+					"showgrammar" : "",
+					"showLF" : "",
+					"showUE" : "",
+					"showaudio" : "",
+					"image":"", 
+					"audio":"", 
+					"URLs":""
+	},
+	"ex" : {
+		"0" : {
+			"type" : "display",
+			"activeElement" : "activity",
+			"settings" : {
+				"typeOfCheck" : {
+					"type": "individual", 
+					"checkButton":false,
+					"cleanOnClick":"selection"
+					
+				},
+				"unit" : {
+					"number":"1",
+					"content":"Your World",
+					"subtitle":"Reading"
+				},
+				"maxChars" : "20",
+				"howStrict" : "isLoose",
+				"substitute": true,
+				"autoPlayAudio" : true,
+				"closeButAppear" : true
+				
+			},
+			"rubric" : {
+				"number" : "The ADDIE Model",
+				"content" : "<div class=\"colory\"><em>Click each step in the process to see key actions and deliverables and then download the ADDIE infographic.</em></div>"
+			},
+			"activity": {
+				"header" : [null,[["image col-xs-12 col-xs-offset-0 col-sm-6 col-sm-offset-6", "<a href=\"../resources/pdfs/infographic1.pdf\" target=\"_blank\"><img src=\"images/pdf.png\"></a>"]],null],
+				"main" : [null,[["plainText","<div class=\"questions col-xs-12\"><div class=\"question_text\"><div class=\"clickMe_text col-xs-12 col-sm-2 col-sm-offset-1\">{{[0]<img src=\"images/image_1.png\"><div class=\"triangle\"><img src=\"../resources/layout/triangle/triangle_top.png\"></div>}}</div></div> <div class=\"question_text\"><div class=\"clickMe_text col-xs-12 col-sm-2\">{{[1]<img src=\"images/image_2.png\"><div class=\"triangle\"><img src=\"../resources/layout/triangle/triangle_top.png\"></div>}}</div></div> <div class=\"question_text\"><div class=\"clickMe_text col-xs-12 col-sm-2\">{{[2]<img src=\"images/image_3.png\"><div class=\"triangle\"><img src=\"../resources/layout/triangle/triangle_top.png\"></div>}}</div></div><div class=\"question_text\"><div class=\"clickMe_text col-xs-12 col-sm-2\">{{[3]<img src=\"images/image_4.png\"><div class=\"triangle\"><img src=\"../resources/layout/triangle/triangle_top.png\"></div>}}</div></div><div class=\"question_text\"><div class=\"clickMe_text col-xs-12 col-sm-2\">{{[4]<img src=\"images/image_5.png\"><div class=\"triangle\"><img src=\"../resources/layout/triangle/triangle_top.png\"></div>}}</div></div> </div><div class=\"col-xs-10 col-xs-offset-1 answersDiv\"><div class=\"answers\">@@[0]<strong>Analysis</strong><br>In the <strong>analysis</strong> phase, the instructional problem is clarified, instructional goals are established, and the learning environment and learner’s existing knowledge and skills are identified. <br>Some of the questions that are addressed during this phase include:<br><ul><li>Why is this training needed?</li><li>Who is the audience and what are their characteristics?</li><li>What are the desired outcomes?</li><li>What are the delivery options?</li><li>What is the content?</li><li>Are there any obstacles or constraints?</li><li>What is the timeline for project completion?</li></ul><br>Key Deliverables: Needs Analysis Document@@ @@[1]<strong>Design</strong><br>The <strong>design</strong> phase deals with defining learning objectives and selecting appropriate instructional strategies, content, assessments, and media.<br>Some of the key actions during this phase include:<br><ul><li>deciding on an instructional strategy</li><li>selecting technology or technologies</li><li>designing the user interface and user experience</li><li>developing prototypes</li><li>applying visual design (graphic design)</li></ul><br>Key Deliverables: The Design Document, Storyboards@@ @@[2]<strong>Development</strong><br>The <strong>development</strong> phase is where developers create and assemble the content assets that were specified during the design phase. Programmers develop technologies, and the project is reviewed and revised according to feedback.<br>Some of the key actions during this phase include:<br><ul><li>developing instructional courseware </li><li>producing training materials (handouts, audio, computer games, etc.)</li><li>piloting</li></ul><br>Key Deliverables: lesson materials, job aids, assessment instruments@@ @@[3]<strong>Implementation</strong><br>During the <strong>implementation</strong> phase, instructors are trained, materials are published, learners are registered, and the course is launched.<br>Some of the key actions during this phase include:<br><ul><li>establishing a course schedule</li><li>training instructors / facilitators</li><li>enrolling and orienting learners</li><li>launching eLearning courses</li></ul><br>Key Deliverables: online feedback forms, online student assessments@@ @@[4]<strong>Evaluation</strong><br>This phase has two parts: formative and summative <strong>evaluation</strong>. Formative evaluation occurs through each phase of the ADDIE model and is used to continuously revise the eLearning course while it is in development. Summative evaluation occurs after the eLearning course is launched, and refers to evaluation of learners and of the course itself.<br>Some of the key actions during this phase include:<br><ul><li>collecting learner data and reviewing training effectiveness</li><li>performing on-site evaluations</li><li>reporting results to key stakeholders</li><li>revising the training system to improve it</li></ul><br>Key Deliverables: program evaluation report@@</div></div>"]],null],
+				"footer" : [null,null,null]
+			}
+		}
+	}
+}

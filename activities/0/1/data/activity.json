@@ -1,0 +1,88 @@
+﻿{
+	"elements" : {
+					"facilitator" : "Thinking critically, using a framework, and being creative...these are hallmarks of the Instructional Design field. For people who love instructional design, there’s nothing better than watching learners meet their goals, and knowing that your expertise and creativity helped get them there.<br><br>This lesson will introduce you to the exciting field of instructional design and help you identify your own professional goals. In this lesson, you’ll:<br><br>• hear a clear definition of “instructional design”<br>• and understand its key elements<br>• You’ll learn about the ADDIE model which provides a systematic process for designing instruction<br>• and recognize its advantages and disadvantages.<br>• Most importantly, you’ll learn what you need to <strong>do</strong> to become an instructional designer<br>• and assess your own strengths and interests, so you can <br>• develop a plan for building your own career ",
+					"showtext" : "",
+					"showgrammar" : "",
+					"showLF" : "",
+					"showUE" : "",
+					"showCU" : "",
+					"showaudio" : "",
+					"image":"", 
+					"audio":"0_1", 
+					"URLs":""
+	},
+	"ex" : {
+		"0" : {
+			"type" : "syncAudio",
+			"activeElement" : "activity",
+			"settings" : {
+				"typeOfCheck" : {
+					"type": "submit", 
+					"checkButton":false,
+					"cleanOnClick":"selection" 
+				},
+				"unit" : {
+					"number":"1",
+					"content":"Your World",
+					"subtitle":"Reading"
+				},
+				"autoPlayAudio" : true,
+				"hideTimebar" : false,
+				"equalColumns": false
+			},
+			"rubric" : {
+				"number" : "Objectives",
+				"content" : "This lesson will introduce you to the exciting field of <strong>Instructional Design (ID)</strong> and help you define your own goals. In this lesson, you will:"
+			},
+			"activity": {
+				"header" : [null,null,null],
+				"main" : [null,[["syncText","text1"]],["image", "<img src=\"images/image1.png\">"]],
+				"footer" : [null,null,null],
+				"timelineObject":[
+					{
+						"start": 24.32,
+						"target": "text1",
+						"text": "<strong>define</strong> the term <i>instructional design</i>",
+						"classText":"textArrow"
+					},
+					{
+						"start": 27.25,
+						"target": "text1",
+						"text": "identify the key <strong>elements</strong> that make up instructional design",
+						"classText":"textArrow"
+					},
+					{
+						"start": 29.30,
+						"target": "text1",
+						"text": "learn the <strong>ADDIE</strong> Model for systematic instructional design",
+						"classText":"textArrow"
+					},
+					{
+						"start": 34.43,
+						"target": "text1",
+						"text": "recognize <strong>advantages</strong> and <strong>disadvantages</strong> of ADDIE",
+						"classText":"textArrow"
+					},
+					{
+						"start": 37.78,
+						"target": "text1",
+						"text": "identify <strong>core skills</strong> that instructional designers should have",
+						"classText":"textArrow"
+					},
+					{
+						"start": 42.25,
+						"target": "text1",
+						"text": "assess your <strong>own</strong> strengths and interests with regard to core ID skills",
+						"classText":"textArrow"
+					},
+					{
+						"start": 44.60,
+						"target": "text1",
+						"text": "develop an <strong>action plan</strong> for building your ID skills and career",
+						"classText":"textArrow"
+					}
+				]
+			}
+		}
+	}
+}

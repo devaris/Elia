@@ -1,0 +1,125 @@
+@charset "utf-8";
+/* CSS Document */
+
+/*change only if necessary for the activity*/
+
+/*activity dimensions*/
+.content {
+   /*width: 902px;*/
+}
+
+.section {
+	/*height: 520px;*/
+}
+
+.SourceItems {
+    /*margin-left: 20px;*/
+}
+
+.TargetItems > li {
+	/*list-style-type:decimal;*/
+	/*float:left;*/
+}
+
+.TrueFalse.DropDown > .stem{
+	/*width:4%;*/
+}
+
+ul.SourceItems > li, ul.TargetItems > li {
+	list-style:decimal outside none;
+}
+
+.SourceItems > li {
+    /*clear: none !important;*/
+   /* margin-top: 10px;*/
+}
+
+.selections{
+	color: red;
+}
+
+/*show text and extra content dimensions*/
+#showtext {
+	/*Remove comments where necessary if you want to give different dimensions to the showtext.*/
+	width: 700px;
+	height: 100%;
+} 
+
+.TrueFalse > li > ul > li {
+	list-style:none;
+}
+
+.TrueFalse > li > ul > li > span > span> img{
+    max-height: 100%;
+    max-width: 900px;
+    width: 100%;
+}
+
+@media (max-width:768px){
+	.TrueFalse > li > ul > li > span > span> img {
+		max-width: 250px;
+	}
+}
+
+.hideMe {
+    display: none !important;
+}
+
+input[type="checkbox"], input[type="radio"] {
+	display:none;
+}
+
+input[type="radio"] + span>span::before {
+	display:none;
+}
+
+.TrueFalse > .stem {
+    display: inline-table;
+    width: 70%;
+}
+
+ul.TrueFalse li {
+    list-style: none;
+    display: inline-table;
+    width: 325px;
+}
+
+@media (max-width:768px){
+	ul.TrueFalse li {
+		display: block;
+		width: auto;
+	}
+}
+
+.floatLeft{
+	width:auto !important;
+}
+
+.leftAlign {
+    display: block;
+    text-align: left;
+}
+
+.TrueFalse > li > ul > li {
+    width: auto;
+}
+
+ul > li::before{
+	content:none;
+}
+
+ul > li > ul > li::before {
+    content: none;
+}
+
+@media (max-width:768px) {
+	.rubric_content {
+		min-height: 50px;
+	}
+	.floatLeft {
+		clear: none;
+	}
+	.SourceItems > li{
+		padding-top: 20px;
+	}
+}

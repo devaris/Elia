@@ -1,0 +1,60 @@
+@charset "utf-8";
+
+/* Default Values of text List Content Container: Block Layout, Width and Visibility to the right*/
+ul.SourceItems {
+	/* Used ONLY in the case of a specific width of the UL Container to limit the inout lines on the right side */
+	overflow: hidden;
+}
+
+/*Default Values of List position + style*/
+ul.SourceItems > li {
+
+}
+
+/* Default Values of input text border style*/
+ul.SourceItems > li input, .actText input{
+	cursor:inherit;
+	background:transparent;
+	border:0 none transparent;
+	/* Margin to the left+right of the input text */
+	margin:0 5px;
+	
+	/* Change in activity.css */
+	border-bottom:2px dotted #000;
+}
+
+textarea {	
+	background:-moz-radial-gradient(circle at 2px 88% , black 6%, transparent 6%) repeat scroll 1px 1px; 
+	background:-webkit-radial-gradient(circle at 2px 88% , black 6%, transparent 6%) repeat scroll 1px 1px; 
+	background:-o-radial-gradient(circle at 2px 88% , black 6%, transparent 6%) repeat scroll 1px 1px; 
+	background:-ms-radial-gradient(circle at 2px 88% , black 6%, transparent 6%) repeat scroll 1px 1px; 
+	background:radial-gradient(circle at 2px 88% , black 6%, transparent 6%) repeat scroll 1px 1px;
+	background-size:4px 20px;
+	border: medium none;
+	resize: none;
+	overflow: auto;
+	cursor: default;
+	margin:0 5px;
+}
+
+
+.individualCheck.isOn, .showAnswer.isOn  {
+    background: url("../../resources/layout/footer/check_Off.png") no-repeat scroll right top rgba(0, 0, 0, 0);
+    cursor: pointer;
+}
+
+.individualCheck, .showAnswer {
+    background: url("../../resources/layout/footer/check_Dis.png") no-repeat scroll right top rgba(0, 0, 0, 0);
+}
+
+.individualCheck.isOn.checked, .showAnswer.checked  {
+    background: url("../../resources/layout/footer/check_On.png") no-repeat scroll right top rgba(0, 0, 0, 0);
+    cursor : pointer;
+}
+
+.individualCheck, .showAnswer  {
+    cursor : arrow;
+    display: inline-block;
+    height: 40px;
+    width: 40px;
+}

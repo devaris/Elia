@@ -1,0 +1,138 @@
+@charset "utf-8";
+/* CSS Document */
+
+
+
+body > div.content > div.section {
+    /*display: table-cell;
+    vertical-align: middle;*/
+}
+
+ul > li::before{
+	display:none;
+}
+
+.newJustDiv{
+	z-index: 5;
+}
+
+.drags span.itemIsActive {
+	padding: 0px;
+	z-index: 3;
+	/*font-family:'CSSREF_STDBLD';
+	font-style:italic;*/
+}
+
+span.cloned {
+	z-index: 3;
+}
+
+ul.SourceItems{
+	display:block;
+	width:100%;
+}
+
+ul.SourceItems > li {
+	/*list-style:lower-alpha;*/
+	list-style:none;
+	float:left;
+	padding:0.5em;
+}
+
+/****EXTRA FOR DRAG AND DROP**** - CHANGE ACCORDING TO ACTIVEITEMCLASS */
+ul.SourceItems > li > span.itemIsActive,  ul.TargetItems > li  > span.itemIsActive{
+    /*color: #0033CC;*/
+    cursor: pointer;
+    font-style: italic;
+	font-weight:bold;
+	background-color:#ebe7e4;
+	box-shadow: 0px 6px 4px -4px rgba(0, 0, 0, 0.25);
+	color:#000;
+}
+
+/*ul.SourceItems > li > span.itemIsActive.tappedDrag,  ul.TargetItems > li  > span.itemIsActive.tappedDrag{
+	background-color:#ffa91f;
+}*/
+
+/**** THIS NEEDS TO BE REVISITED< OBVIOUSLY*/
+/*ul.SourceItems > li > span.itemIsActive {*/
+	/*color: #000000;*/
+/*}
+
+.checkCorrect > img, .checkWrong > img {
+    border : 2px solid;
+}*/
+
+.itemIsActive {
+	color:#2E2925;
+}
+
+ul.SourceItems {
+	border-radius: 50px;
+	-moz-border-radius: 50px;
+	-webkit-border-radius: 50px;
+	-o-border-radius: 50px;
+	
+	/*background-image: url("../../resources/layout/menu/headerback.jpg");*/
+	background-color:#005E94;
+	padding: 1%;
+}
+
+ul.SourceItems > li {
+    /*
+    padding: 1.5em;
+	*/
+}
+
+ul.SourceItems > li > span.itemIsActive {
+	-moz-border-radius: 30px !important;
+	-webkit-border-radius: 30px !important;
+	-o-border-radius: 30px !important;
+	border-radius: 30px !important;
+}
+
+ul.SourceItems > li > span.itemIsActive.tappedDrag, ul.TargetItems > li > span.itemIsActive.tappedDrag, .drop.ui-droppable.tappedDrag{
+    background: #fec88c; /* Old browsers */
+	background: -moz-linear-gradient(top, #fec88c 0%, #fe8f21 50%, #e45909 100%); /* FF3.6-15 */
+	background: -webkit-linear-gradient(top, #fec88c 0%,#fe8f21 50%,#e45909 100%); /* Chrome10-25,Safari5.1-6 */
+	background: linear-gradient(to bottom, #fec88c 0%,#fe8f21 50%,#e45909 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#fec88c', endColorstr='#e45909',GradientType=0 ); /* IE6-9 */
+}
+
+ul.SourceItems > li > span.itemIsActive.tappedTrans,  ul.TargetItems > li  > span.itemIsActive.tappedTrans{
+	background-color:transparent;
+	color:#fff;
+	box-shadow:none;
+}
+
+ul.SourceItems > li > span.itemIsActive.tappedDrag, ul.TargetItems > li > span.itemIsActive.tappedDrag{
+	color:#000;
+}
+
+.checkCorrect {
+	color:#ffffff;
+	background-color:#17b433 !important;
+}
+
+.checkWrong {
+	color:#ffffff;
+	background-color:#cd0e0e !important;
+}
+
+/*
+.drop {
+ border-radius: 30px;
+ color:transparent;
+ background-color:#8b8477;
+}
+*/
+
+.drop.ui-droppable{
+	border-radius: 30px;
+	-moz-border-radius: 30px;
+	-webkit-border-radius: 30px;
+	-o-border-radius: 30px;
+	color:transparent;
+	/*background-color:#8b8477;*/
+	background-color:#7FC0E6;
+}

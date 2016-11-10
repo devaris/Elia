@@ -1,0 +1,42 @@
+﻿{
+	"elements" : {
+					"showtext" : "",
+					"showgrammar" : "",
+					"showLF" : "",
+					"showUE" : "",
+					"showCU" : "",
+					"showaudio" : "",
+					"image":"", 
+					"audio":"", 
+					"URLs":""
+	},
+	"ex" : {
+		"0" : {
+			"type" : "display",
+			"activeElement" : "activity",
+			"settings" : {
+				"typeOfCheck" : {
+					"type": "submit", 
+					"checkButton":false,
+					"cleanOnClick":"selection"
+				},
+				"unit" : {
+					"number":"1",
+					"content":"Your World",
+					"subtitle":"Reading"
+				},
+				"maxChars" : "20",
+				"howStrict" : "isLoose" 
+			},
+			"rubric" : {
+				"number" : "",
+				"content" : ""
+			},
+			"activity": {
+				"header" : [null,null,null],
+				"main" : [null,[["KMstatement","Appendix"],["plainText","Reflection: Assess Your Skills"],["image", "<a href=\"../resources/pdfs/Lesson_1_Questionnaire.pdf\" target=\"_blank\"><img src=\"images/image1.png\"></a>"],["plainText","ADDIE Infographic"],["image", "<a href=\"../resources/pdfs/infographic1.pdf\" target=\"_blank\"><img src=\"images/image1.png\"></a>"]],null],
+				"footer" : [null,null,null]
+			}
+		}
+	}
+}

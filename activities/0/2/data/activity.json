@@ -1,0 +1,44 @@
+﻿{
+	"elements" : {
+					"showtext" : "",
+					"showjusttext":"",
+					"showgrammar" : "",
+					"showLF" : "",
+					"showUE" : "",
+					"showaudio" : "",
+					"image":"", 
+					"audio":"", 
+					"URLs":""
+	},
+	"ex" : {
+		"0" : {
+			"type" : "display",
+			"activeElement" : "activity",
+			"settings" : {
+				"typeOfCheck" : {
+					"type": "individual", 
+					"checkButton":false,
+					"cleanOnClick":"selection"
+					
+				},
+				"unit" : {
+					"number":"1",
+					"content":"Your World",
+					"subtitle":"Reading"
+				},
+				"maxChars" : "20",
+				"howStrict" : "isLoose",
+				"substitute": false
+			},
+			"rubric" : {
+				"number" : "What is Instructional Design?",
+				"content" : "The work that instructional designers do varies considerably; as a result, defining ID can be a challenge. Before we begin, think about your <strong>own</strong> ideas about instructional design. How would <strong>YOU</strong> define the term?<br><br><div class=\"colory\"><em>Write your definition in the box below, and then click <strong>Submit</strong> to compare your definition with ours.</em></div>"
+			},
+			"activity": {
+				"header" : [null,null,null],
+				"main" : [null,[ ["plainText","<div class=\"col-md-6 col-xs-12\"><div class=\"col-md-12 colour1\">Your Definition</div><div class=\"col-md-12 colour2\">Instructional Design:<form><textarea rows=\"7\" cols=\"26\" name=\"reply\" class=\"myform\"></textarea></form><div class=\"myButton\">{{[0]Submit}}</div></div> </div> <div class=\"col-md-6 col-xs-12\"> <div class=\"col-md-12 colour3\">Our Definition</div>  <div class=\"answers\">@@[0]Here is the definition we propose:<br><br><em>Instructional Design involves the <strong>analysis</strong> of learning needs and the use of <strong>theoretically based</strong> principles of learning for the <strong>systematic</strong> development of instruction. Instructional designers <strong>specify a method</strong> which, if followed, will facilitate the transfer of knowledge, skills and attitudes to the learner, and then <strong>evaluate outcomes</strong> to make sure learning occurs.</em><br><br>Let’s examine this definition more closely.@@ </div></div>"]],null],
+				"footer" : [null,null,null]
+			}
+		}
+	}
+}

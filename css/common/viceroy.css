@@ -1,0 +1,431 @@
+@charset "utf-8";
+/* CSS Document */
+
+@media (max-width:1024px){
+	body {
+		line-height: 1.1;
+	}
+}
+
+.KMstatement, .KMquestion {
+    font-size: 50px;
+	padding: 15px;
+	padding-left: 50px;
+    padding-right: 50px;
+}
+
+@media (max-width:1024px){
+	.KMstatement, .KMquestion {
+		font-size: 30px;
+		padding: 7px 15px;
+		padding-left: 30px;
+		padding-right: 30px;
+	}	
+}
+
+.KMquestion {
+    /*text-align: left;*/
+	padding-left: 70px;
+}
+
+@media (max-width:1024px){
+	.KMquestion {
+		padding-left: 50px;
+	}
+}
+
+.KMquestion:before{
+	content: url("../../resources/layout/icon_question.png");
+	margin-left: -82px;
+    padding: 15px;
+    vertical-align: middle;
+}
+
+@media (max-width:1024px){
+	.KMquestion:before{
+		margin-left: -40px;
+		transform: scale(0.6);
+		display: inline-block;
+		padding: 0;
+		margin-top: -14px;
+		margin-bottom: -14px;
+	}
+}
+
+.activityTitle{
+	font-size: 50px;
+	padding: 15px;
+	padding-left: 70px;
+    padding-right: 50px;
+}
+
+@media (max-width:1024px){
+	.activityTitle{
+		font-size: 30px;
+		padding: 7px 15px;
+		padding-left: 50px;
+		padding-right: 30px;
+	}
+}
+
+.activityText, .plainText {
+    font-size: 28px;
+    font-weight: 300;
+	padding: 15px;
+}
+
+@media (max-width:1024px){
+	.activityText, .plainText {
+		font-size: 20px;
+		padding: 7px 15px;
+	}
+}
+
+.activityTitle:before{
+	content: url("../../resources/layout/icon_activity.png");
+	margin-left: -82px;
+    padding: 15px;
+    vertical-align: middle;
+}
+
+@media (max-width:1024px){
+	.activityTitle:before{
+		margin-left: -40px;
+		transform: scale(0.6);
+		display: inline-block;
+		padding: 0;
+		margin-top: -14px;
+		margin-bottom: -14px;
+	}
+}
+
+.teamDecision {
+	font-size: 50px;
+	padding: 15px;
+	padding-left: 70px;
+    padding-right: 50px;
+}
+
+@media (max-width:1024px){
+	.teamDecision {
+		font-size: 30px;
+		padding: 7px 15px;
+		padding-left: 50px;
+		padding-right: 30px;
+	}
+}
+
+.teamDecision:before{
+	content: url("../../resources/layout/icon_team.png");
+	margin-left: -82px;
+    padding: 15px;
+    vertical-align: middle;
+}
+
+@media (max-width:1024px){
+	.teamDecision:before{
+		margin-left: -40px;
+		transform: scale(0.6);
+		display: inline-block;
+		padding: 0;
+		margin-top: -14px;
+		margin-bottom: -14px;
+	}
+}
+
+.ThankYou{
+	font-size: 50px;
+	padding: 15px;
+	padding-left: 50px;
+    padding-right: 50px;
+}
+
+@media (max-width:1024px){
+	.ThankYou{
+		font-size: 30px;
+		padding: 7px 15px;
+		padding-left: 30px;
+		padding-right: 30px;
+	}
+}
+
+.widgetTitle {
+    font-size: 35px;
+	/*padding: 15px;*/
+}
+
+.skin-setttings .widgetTitle {
+    background: #b69f5b none repeat scroll 0 0;
+	color: #ffffff;
+    display: block;
+    font-size: 21px;
+    font-weight: 600;
+    padding: 5px 8px;
+    text-align: center;
+}
+
+.widgetTitle.invText {
+    color: #b69f5b;
+}
+
+@media (max-width:1024px){
+	.skin-setttings .widgetTitle {
+		line-height: 1.42857;	
+	}
+}
+
+.widgetText {
+    font-size: 25px;
+	font-weight: 300;
+}
+
+.skin-setttings.widgetText {
+    font-size: 18px;
+}
+
+.timer {
+    display: table-cell;
+    font-size: 25px;
+    font-weight: 300;
+    height: 15em;
+    left: 50%;
+    min-height: 100%;
+	position: relative;
+    vertical-align: middle;
+}
+
+.timer span {
+	font-size: 45px;
+	font-weight: 300;
+}
+
+.timerButtons {
+	cursor:pointer;	
+}
+
+.timerTitle {
+	padding: 15px;
+}
+
+.timerTitle:before{
+	content: url("../../resources/layout/icon_timer.png");
+	margin-left: -82px;
+    padding: 15px;
+    vertical-align: middle;
+}
+
+@media (max-width:1024px){
+	.timerTitle:before{
+		margin-left: -40px;
+		transform: scale(0.6);
+		display: inline-block;
+		padding: 0;
+		margin-top: -14px;
+		margin-bottom: -14px;
+	}
+}
+
+ul {
+	list-style: none;
+}
+
+ul > li:before {
+ 	color: #f26423;
+    /* For a round bullet */
+ 	content: "●";
+	/* For a square bullet */
+ 	/*content:'\25A0';*/
+    display: block;
+    font-size: 80%;
+    left: -24px;
+    max-height: 0;
+    max-width: 0;
+    position: relative;
+    top: 3px;
+}
+
+ul > li > ul > li:before {
+    /* For an arrow*/
+ 	content: "►";
+}
+
+.activityText > ul {
+	text-align: left;	
+}
+
+.activityText > ul > li:before {
+    /*font-size: 58px;
+    left: -24px;
+    top: -22px;*/
+}
+
+.activityText > ul > li:nth-child(1):before {
+    content: none;
+}
+
+.activityText strong {
+	font-weight:600;
+}
+
+.image{
+	padding: 15px;
+}
+
+img{
+	max-width:100%;
+	padding-top: 15px;
+	padding-bottom: 15px;
+}
+
+@media (max-width:1024px){
+	.image{
+		padding: 7px 15px;
+	}
+	
+	img{
+		padding-top: 7px;
+		padding-bottom: 7px;
+	}
+}
+
+.side_by_side{
+	display: inline-block;
+    vertical-align: middle;	
+}
+
+.image.side_by_side {
+    vertical-align: top;
+}
+
+.leftAlign {
+	text-align:left;	
+}
+
+.clickReveal .clickMe {
+	background-color: #565656;
+	cursor:pointer;
+}
+
+.clickReveal .clickMe::before {
+	background-color: #B69F5B;
+    color: #B69F5B;
+ 	content:"'";
+    max-height: 0;
+    max-width: 0;	
+}
+
+.tabs > div {
+	height: 100%;
+	overflow-y: auto;
+	padding:10px;
+}
+
+.tabs ul > li::before {
+    content: ">";
+    font-size: 21px;
+    font-weight: 800;
+    left: -20px;
+    top: -1px;
+}
+
+.tabs ul {
+    margin-left: -18px;
+}
+
+ .tab2 {
+    top: 15% !important;
+    height: 75% !important;
+} 
+
+@media (max-height:768px){
+    .tab2 {
+        top: 17% !important;
+        height: 73% !important;
+    } 
+}
+
+@media (max-height:590px){
+    .tab2 {
+        top: 19% !important;
+        height: 71% !important;
+    } 
+}
+
+@media (max-height:430px){
+    .tab2 {
+        top: 21% !important;
+        height: 69% !important;
+    } 
+}
+
+.btn {
+    margin: 2px;
+}
+
+.btn-primary {
+    background-color: #3a332f;
+    border-color: #3a332f;
+}
+
+.btn-primary:hover, .btn-primary:focus, .btn-primary:active, .btn-primary.active{
+    background-color: #ffa91f;
+    border-color: #ffa91f;
+}
+
+.btn-primary.active.focus, .btn-primary.active:focus, .btn-primary.active:hover, .btn-primary.focus:active, .btn-primary:active:focus, .btn-primary:active:hover {
+    background-color: #ffa91f;
+    border-color: #ffa91f;
+}
+
+.figure.full.image > p {
+    font-size: 21px;
+	max-width: 550px;
+}
+
+.figure.full.image > img {
+	max-height: 100%;
+    max-width: 550px;
+    width: 100%;
+}
+
+@media (max-width:1024px){
+	.figure.full.image > p {
+		font-size: 16px;
+		max-width: 450px;
+	}
+	
+	.figure.full.image > img {
+		max-width: 450px;
+	}
+}
+
+div.video {
+    padding: 15px;
+	padding-left: 50px;
+    padding-right: 50px;
+}
+
+@media (max-width:1024px){
+	div.video {
+		padding: 7px 15px;
+		padding-left: 30px;
+		padding-right: 30px;
+	}	
+}
+
+div.video > .jp-video{
+    margin: 0 auto;
+    width: auto;
+    max-width: 550px;
+}
+
+@media (max-width:1024px){
+    div.video > .jp-video{
+        max-width: 450px;
+    }
+}
+
+div.video > .jp-video .jp-jplayer{
+    width: 100% !important;
+    height: 100% !important;
+}

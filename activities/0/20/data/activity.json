@@ -1,0 +1,49 @@
+﻿{
+	"elements" : {
+					"showtext" : "",
+					"showjusttext":"",
+					"showgrammar" : "",
+					"showLF" : "",
+					"showUE" : "",
+					"showaudio" : "",
+					"image":"", 
+					"audio":"",
+					"URLs":""
+	},
+	"ex" : {
+		"0" : {
+			"type":"dnd",
+			"activeElement" : "activity",
+			"settings" : {
+				"typeOfCheck" : {
+					"type":"submit", 
+					"checkButton":true,
+					"showAll": false,
+					"cleanOnClick":"selection" 					
+				},
+				"unit" : {
+					"number":"1",
+					"content":"ENTERTAINMENT",
+					"subtitle":"IN THE PICTURE"
+				},
+				"isMultiple" : false,
+				"replacePattern" : "................................................",
+				"autoPlayAudio" : true,
+				"tapEnabled" : true,
+				"tapPadding" : "0px 20px 0px 20px"
+			},
+			"rubric" : {
+				"number" : "Test Your Understanding - A",
+				"content" : "<div class=\"colory\">Click on each term and definition button to match them.</div>"
+			},
+			"activity" : {
+				"htmlDataAfter":"",
+				"items" : "{{Design Document}} {{Formative Evaluation}} {{Summative Evaluation}} {{SME}} {{Storyboard}}",
+				"contents" : {
+					"isList" : false,
+					"htmlData" : "Someone the instructional designer works with to understand course content {{SME}} \tA high-level document that communicates a strategy for an instructional design project {{Design Document}} \tDetailed screen-by-screen design that communicates the exact content as it will be shown to learners {{Storyboard}} \tIn instructional design, an ongoing process that reviews and assesses a project while it is in development {{Formative Evaluation}} \tIn instructional design, a process for assessing a project after it is completed which includes evaluating learners, and the project itself {{Summative Evaluation}}"
+				}
+			}
+		}
+	}
+}

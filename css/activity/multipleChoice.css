@@ -1,0 +1,356 @@
+@charset "utf-8";
+/* CSS Document */
+
+a img{
+border:0;
+}
+
+img.imageChoicePos{
+	vertical-align:top;
+}
+
+ul { 
+	padding: 0 0 0 30px;
+}
+
+html[dir="rtl"] ul { 
+	padding: 0 30px 0 0;
+}
+
+ul.TrueFalse {
+	padding: 0;
+}
+
+ul.TrueFalse  li{
+	list-style: none;
+}
+
+.SourceItems > li {
+    clear: both;
+}
+
+.TrueFalse > ul {
+	padding:0 0 0 12px;
+}
+
+html[dir="rtl"] .TrueFalse > ul {
+	padding:0 12px 0 0;
+}
+
+.activity_content > ul > li {
+	padding-top: 5px;
+}
+
+.TrueFalse > li > ul > li {
+	cursor:pointer;
+}
+
+
+ul.SourceItems > li::before, ul.TrueFalse > li > ul > li::before, ul.TrueFalse > li::before {
+    content: none;
+}
+
+.TrueFalse.DropDown > ul > li {
+	cursor:default;
+}
+
+.TrueFalse > .stem {
+	display: block;
+}
+
+.TrueFalse > .functionality {
+	
+}
+
+.TrueFalse > .marks {
+	
+}
+
+.TrueFalse > li {
+	
+}
+
+.TrueFalse > li > ul {
+	 padding: 0 0 0 10px;
+}
+
+html[dir="rtl"] .TrueFalse > li > ul {
+	 padding: 0 10px 0 0;
+}
+
+.TrueFalse > li > ul > li {
+	list-style: upper-alpha inside;
+	padding: 1% 5% 0 0;
+}
+
+html[lang="ar"] .TrueFalse > li > ul > li {
+    list-style: inside none arabic-indic;
+}
+
+ul.SourceItems > li, ul.TargetItems > li {
+    font-weight: normal;
+}
+
+html[dir="rtl"] .TrueFalse > li > ul > li {
+	padding: 1% 0 0 5%;
+}
+
+.TrueFalse > li > ul > li > span {
+	/*left: -13px;
+	position: relative;
+	font-weight:normal;*/
+}
+
+html[dir="rtl"] .TrueFalse > li > ul > li > span {
+	left:auto;
+	right: -13px;
+}
+
+.stem {
+	font-weight:normal;
+}
+
+.TrueFalse.DropDown > .stem {
+	display: block;
+	width: 100%;
+}
+
+
+.TrueFalse.DropDown > .functionality {
+	display: inline-table;
+}
+
+.TrueFalse.DropDown > .marks {
+	display: inline-table;
+	width: 20%;
+	vertical-align:top;
+}
+
+
+ li > input[type="radio"]{ 
+  display:none;
+ 
+}
+
+ li > input[type="checkbox"]{ 
+  display:none;
+ 
+}
+
+   
+
+
+select> .checkDefault{
+	background: #eee;
+	border-bottom: 0.5px solid #EA650D;
+}
+
+select> .checkDefault:last-child{
+	border-bottom: none;
+}
+
+/*li > input + img{ 
+  cursor:pointer;
+  border:2px solid transparent;
+ 
+}
+ li > input:checked + img{ 
+  border:2px solid #f00;
+  
+}   */
+
+/* .functionality select{
+width: auto;
+   height: auto;
+   overflow: hidden;
+   background: right #fff;
+   border: 1px solid #cbaf7f; 
+border-radius:5px 5px 0 0;   
+
+
+} */
+/* .functionality select::before{
+
+width: auto;
+   height: auto;
+   overflow: hidden;
+   background: right #ddd;
+
+border-radius:15px; 
+} */
+
+.functionality>select {
+  background: transparent;
+  width: auto;
+  padding: 0px 35px 0px 5px;
+  font-size: 18px;
+  border: 2px solid #EA650D;
+  /* border-radius:5px 5px 0 0; */
+  height: auto;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+  background: url('../../resources/layout/activities/dropdownnarrow_idle.png') 105% / 20% no-repeat #eee;
+  cursor: pointer;	
+}
+
+/*@media (max-width:1024px) {
+    .functionality>select {
+        font-size: 22px;
+    }
+}*/
+
+.functionality>select:hover {
+background: url('../../resources/layout/activities/dropdownnarrow_pressed.png') 105% / 20% no-repeat #eee;
+
+}
+
+
+input[type="radio"] + span>span::before {
+    content: url('../../resources/layout/activities/radio_btn_idle.png');
+	position:relative;
+	top:10px;
+	left:-10px;
+}
+
+input[type="radio"]:checked + span>span::before {
+        content: url('../../resources/layout/activities/radio_btn_pressed.png');
+	
+    }
+
+
+input[type="radio"] + span > span.checkWrong::before{
+ content: url('../../resources/layout/activities/radio_btn_wrong.png');
+
+}
+
+
+input[type="radio"] + span > span.checkCorrect::before{
+ content: url('../../resources/layout/activities/radio_btn_correct.png');
+
+}
+
+ input[type="checkbox"] + span>span::before {
+        content: url('../../resources/layout/activities/square_btn_Idle.png');
+	position:relative;
+	top:10px;
+	left:-10px;
+    }
+
+input[type="checkbox"]:checked + span>span::before {
+        content: url('../../resources/layout/activities/square_btn_pressed.png');
+	
+    }
+
+
+input[type="checkbox"] + span > span.checkWrong::before{
+ content: url('../../resources/layout/activities/square_btn_wrong.png');
+
+}
+
+
+input[type="checkbox"] + span > span.checkCorrect::before{
+ content: url('../../resources/layout/activities/square_btn_correct.png');
+
+}
+ 
+
+
+
+
+
+input[type="checkbox"], input[type="radio"] {
+    left: -47px;
+    position: relative;
+    vertical-align: middle;
+}
+
+html[dir="rtl"] input[type="checkbox"], html[dir="rtl"] input[type="radio"] {
+	left: auto;
+	right: -47px;
+}
+
+.showMe {
+    right: 0;
+}
+
+html[dir="rtl"] .showMe {
+	left: 0;
+	right: auto;
+}
+
+.mymark {
+	float: right;
+}
+
+html[dir="rtl"] .mymark {
+	float: left;
+}
+
+.hideMe{
+	display:none;
+}
+
+.showMe {
+    display:block;
+}
+
+.textSelected {
+	/*text-shadow: 4px 4px 2px black;*/
+	/*color: blue;*/
+}
+
+
+
+.TrueFalse > li > ul > li > span > span> img{
+	/*border: 3px solid #b1acac;
+	box-shadow: 2px 5px 4px 2px rgba(0,0,0,0.50);*/
+	margin-top: 20px;
+	border-radius: 30px;
+	border:3px solid transparent;
+}
+
+
+.TrueFalse > li > ul > li > span > span.textSelected> img{
+	/*text-shadow: 4px 4px 2px black;*/
+	/*color: blue;*/
+	border:3px solid #f26423;
+	
+}
+
+img{
+	padding-top: 0px;
+	padding-bottom: 0px;
+}
+
+.imageSelected {
+	-webkit-box-shadow: 4px 4px 2px 0 blue;
+	-moz-box-shadow: 4px 4px 2px 0 blue;
+	box-shadow: 4px 4px 2px 0 blue;	
+	/*box-shadow: inset 0px 0px 10px 0px #ABABAB,5px 5px 5px 1px #DDDDDD;
+	-webkit-box-shadow: inset 0px 0px 10px 0px #ABABAB,5px 5px 5px 1px #DDDDDD;
+	-moz-box-shadow: inset 0px 0px 10px 0px #ABABAB,5px 5px 5px 1px #DDDDDD;
+	-o-box-shadow: inset 0px 0px 10px 0px #ABABAB,5px 5px 5px 1px #DDDDDD;*/
+}
+
+.TrueFalse > li > ul > li > span > span.checkCorrect img{
+	border:3px solid #00be56;
+	
+}
+
+.TrueFalse > li > ul > li > span > span.checkWrong img{
+	border:3px solid #ff0000;
+	
+}
+
+html[dir="rtl"] .imageSelected {
+	-webkit-box-shadow: 4px 0 2px 4px blue;
+	-moz-box-shadow: 4px 0 2px 4px blue;
+	box-shadow: 4px 0 2px 4px blue;	
+}
+
+body > div.content > div.section {
+    /*display: table-cell;
+    vertical-align: middle;
+	vertical-align: top;*/
+}

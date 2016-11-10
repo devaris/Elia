@@ -1,0 +1,25 @@
+// JavaScript Document
+//Global project specific labels and settings.
+
+var settings = {
+	"toolbarExeOnly" : false, // If set to true toolbar works only where there is exercise. Default is false...
+	"defaultLanguage" : "en",
+	"distinctiveTitle" : "ELIAM1L1", // Name or abbreviation of the Project.
+	"version" : "student", // it could either be "teacher", which is the DEFAULT, or "student".
+	"buttonLabels" : {
+		"previous" : "Previous",
+		"next" : "Next",
+		"audio" : "Play Audio"
+		//usage: Specify the label of each button or button state on the right side of each assignment.
+	},
+	"buttonsOn" : ["previous", "next","showaudio", "audiorew", "audiopl", "audiofor", "seek-bar"],
+	"pageAppearance" : "width", // it's either "height" or "width". Default, if not set, is "height".
+	"firstLevelJustExpands" : true, // If set to true, first level just shows the next level without updating the content in the screen.
+	"lvlOfAccDevelopment" : "full", // This the level to which the Accordion gets developed. It can be any number or "full". Default, if not set, is "full". 
+	"hiddenAccordion" : false,  // This hides the Accordion.
+	"mediaLocation" : {"activities" : "activities", "resources" : "resources", "audio" : "resources/audio/", "images" : "resources/images/", "xmlURL" : "xml/xml.xml"}, //all paths relative to index.html
+	//usage: the buttons that will not be included here will be removed from the current instance of the player.
+	//full set of buttons : "previous", "next", "goBack", "notesb", "counter", "checkB", "showB", "resetB", "showjust", "showtext", "showgrammar", "videoB", "showLF", "showUE", "showCU", "showgrade", "showaudio", "audiorew", "audiopl", "audiofor", "seek-bar", "rangevalue" 
+	"JSONinfoFile": "info.json"
+}
+

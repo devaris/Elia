@@ -1,0 +1,142 @@
+@charset "utf-8";
+/* CSS Document */
+
+/*
+img[src*="images/PageTxt1.png"]{
+	width:100px;
+}
+
+
+img:nth-child(1){
+	width:100px;
+}
+*/
+
+a img {
+	text-decoration: none; 
+	border-style:none;
+	
+	-webkit-transition: all 0.25s ease-in-out 0s;
+    -moz-transition: all 0.25s ease-in-out 0s;
+    -o-transition: all 0.25s ease-in-out 0s;
+    transition: all 0.25s ease-in-out 0s;
+}
+
+a img:hover {
+	transform: scale(1.1);
+}
+
+.videoButs > a > img:hover {
+	
+	transform: none;
+	
+	/*transition: transform .2s ease-in-out, opacity .2s ease-in-out;
+	animation: floatBubble 2s infinite  normal ease-out;*/
+	
+
+	/*
+	-moz-transform: scale(2) rotate(30deg) translate(50px);
+	-webkit-transform: scale(1.2) rotate(30deg) translate(50px);
+	-o-transform: scale(2) rotate(30deg) translate(50px);
+	transform: scale(2) rotate(30deg) translate(50px);
+	
+	animation-name: movearound;
+	animation-duration: 4s;
+	animation-iteration-count: infinite;
+	animation-direction: normal;
+	animation-timing-function: ease;
+	*/
+	
+	animation: movearound 2s ease infinite normal;
+}
+
+@keyframes movearound {
+	/*
+	from {
+		transform: rotate(0deg);
+	}
+	to {
+		
+		transform: rotate(15deg);
+	}
+	*/
+	
+	
+	25% {
+		transform: rotate(15deg);
+		
+	}	
+	75% {
+		transform: rotate(-15deg);
+		
+	}	
+
+}
+
+/* Header NON STICKY */ 
+#header{ 
+	line-height:60px; 
+	margin:0 auto; 
+	width: 800px; 
+	text-align:center;
+}
+
+/* Make Header Sticky */
+#header_container { 
+	background:#eee; 
+	border:1px solid #666; 
+	height:60px; 
+	left:0; 
+	position:fixed; 
+	width:100%; 
+	top:0; 
+	
+	z-index:1;
+}
+
+
+/* Container NON STICKY */ 
+#container {
+	width:800px;
+	
+	/* PUT CENTRE*/
+	padding:auto;
+	margin:auto;
+	text-align:center;
+}
+
+/* Make Container Sticky */
+/* CSS for the content of page. I am giving top and bottom padding of 80px to make sure the header and footer do not overlap the content.*/
+#container { 
+	margin:0 auto; 
+
+	/*When sticky use*/
+	overflow:auto;
+
+	padding: 109px 0 45px; 
+	width:800px; 
+}
+#content{
+}
+
+
+/* Make FOOTER Sticky */
+#footer_container {
+	/*background:#eee; 
+	border:1px solid #666;*/ 
+	bottom:0; 
+	height:45px; 
+	left:0; 
+	position:fixed; 
+	width:100%; 
+}
+#footer {
+	background:#9AC0E4;
+	line-height:45px; 
+	margin:0 auto; 
+	width:800px; 
+	text-align:center; 
+}
+
+
+
